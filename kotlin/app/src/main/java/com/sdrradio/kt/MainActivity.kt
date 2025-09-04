@@ -2,10 +2,15 @@ package com.sdrradio.kt
 
 import android.Manifest
 import android.app.AlertDialog
+import android.content.Intent
 import android.content.pm.PackageManager
 import android.hardware.usb.UsbDevice
 import android.hardware.usb.UsbManager
+import android.net.Uri
+import android.os.Build
 import android.os.Bundle
+import android.os.Environment
+import android.provider.Settings
 import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -176,21 +181,41 @@ class MainActivity : AppCompatActivity(), SDRRadio.SDRCallback {
     }
     
     private fun requestPermissions() {
+        // Lista de permissões baseada na versão do Android
+        val permissions = mutableListOf<String>()
+        
+        // Permissões básicas sempre necessárias
+        permissions.add(Manifest.permission.RECORD_AUDIO)
+        permissions.add(Manifest.permission.ACCESS_FINE_LOCATION)
+        permissions.add(Manifest.permission.ACCESS_COARSE_LOCATION)
+        
+        // Permissões de armazenamento baseadas na versão do Android
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            // Android 13+ (API 33+)
+            permissions.add(Manifest.permission.READ_MEDIA_AUDIO)
+            permissions.add(Manifest.permission.READ_MEDIA_IMAGES)
+            permissions.add(Manifest.permission.READ_MEDIA_VIDEO)
+        } else {
+            // Android 6-12
+            permissions.add(Manifest.permission.WRITE_EXTERNAL_STORAGE)
+            permissions.add(Manifest.permission.READ_EXTERNAL_STORAGE)
+        }
+        
         Dexter.withContext(this)
-            .withPermissions(
-                Manifest.permission.WRITE_EXTERNAL_STORAGE,
-                Manifest.permission.READ_EXTERNAL_STORAGE,
-                Manifest.permission.RECORD_AUDIO,
-                Manifest.permission.ACCESS_FINE_LOCATION,
-                Manifest.permission.ACCESS_COARSE_LOCATION
-            )
+            .withPermissions(permissions)
             .withListener(object : MultiplePermissionsListener {
                 override fun onPermissionsChecked(report: MultiplePermissionsReport?) {
                     if (report?.areAllPermissionsGranted() == true) {
                         Log.i(TAG, "All permissions granted")
+                        // Verificar se precisa de permissão MANAGE_EXTERNAL_STORAGE
+                        checkManageExternalStoragePermission()
                     } else {
                         Log.w(TAG, "Some permissions denied")
-                        Toast.makeText(this@MainActivity, "Some permissions are required for full functionality", Toast.LENGTH_LONG).show()
+                        Toast.makeText(
+                            this@MainActivity, 
+                            "Algumas permissões são necessárias para o funcionamento completo do app",
+                            Toast.LENGTH_LONG
+                        ).show()
                     }
                 }
                 
@@ -198,9 +223,36 @@ class MainActivity : AppCompatActivity(), SDRRadio.SDRCallback {
                     permissions: MutableList<PermissionRequest>?,
                     token: PermissionToken?
                 ) {
-                    token?.continuePermissionRequest()
+                    AlertDialog.Builder(this@MainActivity)
+                        .setTitle("Permissões Necessárias")
+                        .setMessage("Este app precisa de acesso à memória interna, áudio e localização para funcionar com dispositivos RTL-SDR.")
+                        .setPositiveButton("Conceder") { _, _ -> token?.continuePermissionRequest() }
+                        .setNegativeButton("Negar") { _, _ -> token?.cancelPermissionRequest() }
+                        .show()
                 }
             }).check()
+    }
+    
+    private fun checkManageExternalStoragePermission() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+            if (!Environment.isExternalStorageManager()) {
+                AlertDialog.Builder(this)
+                    .setTitle("Acesso Total aos Arquivos")
+                    .setMessage("Para salvar arquivos de áudio e configurações, o app precisa de acesso completo ao armazenamento.")
+                    .setPositiveButton("Configurar") { _, _ ->
+                        try {
+                            val intent = Intent(Settings.ACTION_MANAGE_APP_ALL_FILES_ACCESS_PERMISSION)
+                            intent.data = Uri.parse("package:$packageName")
+                            startActivity(intent)
+                        } catch (e: Exception) {
+                            val intent = Intent(Settings.ACTION_MANAGE_ALL_FILES_ACCESS_PERMISSION)
+                            startActivity(intent)
+                        }
+                    }
+                    .setNegativeButton("Pular") { dialog, _ -> dialog.dismiss() }
+                    .show()
+            }
+        }
     }
     
     private fun connectDevice() {
@@ -301,23 +353,65 @@ class MainActivity : AppCompatActivity(), SDRRadio.SDRCallback {
     
     private fun checkUsbPermission(): Boolean {
         val deviceList = usbManager.deviceList
+        Log.d(TAG, "Checking USB devices: ${deviceList.size} devices found")
+        
         for (device in deviceList.values) {
+            Log.d(TAG, "Found USB device: VID=${String.format("0x%04X", device.vendorId)}, PID=${String.format("0x%04X", device.productId)}")
+            
             if (isRTLDevice(device)) {
+                Log.i(TAG, "RTL-SDR device found: ${device.deviceName}")
+                
                 if (!usbManager.hasPermission(device)) {
+                    Log.w(TAG, "No USB permission for device ${device.deviceName}")
+                    
                     val permissionIntent = android.app.PendingIntent.getBroadcast(
-                        this, 0, android.content.Intent("com.sdrradio.kt.USB_PERMISSION"), 0
+                        this, 
+                        0, 
+                        android.content.Intent("com.sdrradio.kt.USB_PERMISSION").apply {
+                            putExtra(UsbManager.EXTRA_DEVICE, device)
+                        }, 
+                        android.app.PendingIntent.FLAG_IMMUTABLE
                     )
-                    usbManager.requestPermission(device, permissionIntent)
+                    
+                    // Mostrar dialog informativo antes de solicitar permissão
+                    AlertDialog.Builder(this)
+                        .setTitle("Dispositivo RTL-SDR Detectado")
+                        .setMessage("Foi encontrado um dispositivo RTL-SDR conectado. O app precisa de permissão para acessá-lo.")
+                        .setPositiveButton("Conceder Acesso") { _, _ ->
+                            usbManager.requestPermission(device, permissionIntent)
+                        }
+                        .setNegativeButton("Cancelar") { _, _ ->
+                            Toast.makeText(this, "Permissão USB negada. Conecte o dispositivo novamente.", Toast.LENGTH_LONG).show()
+                        }
+                        .show()
                     return false
+                } else {
+                    Log.i(TAG, "USB permission already granted for device ${device.deviceName}")
+                    return true
                 }
-                return true
             }
         }
+        
+        Log.w(TAG, "No RTL-SDR device found")
+        Toast.makeText(this, "Nenhum dispositivo RTL-SDR encontrado. Verifique a conexão USB.", Toast.LENGTH_LONG).show()
         return false
     }
     
     private fun isRTLDevice(device: UsbDevice): Boolean {
-        return device.vendorId == 0x0bda
+        // RTL2832U devices
+        return device.vendorId == 0x0bda && (
+            device.productId == 0x2832 ||  // RTL2832U
+            device.productId == 0x2838 ||  // ezcap USB 2.0 DVB-T/DAB/FM dongle
+            device.productId == 0x2831 ||  // RTL2831U
+            device.productId == 0x2830 ||  // RTL2830U
+            device.productId == 0x2839 ||  // Outros dispositivos RTL
+            device.productId == 0x283a ||
+            device.productId == 0x283b ||
+            device.productId == 0x283c ||
+            device.productId == 0x283d ||
+            device.productId == 0x283e ||
+            device.productId == 0x283f
+        )
     }
     
     private fun updateFrequencyDisplay() {
