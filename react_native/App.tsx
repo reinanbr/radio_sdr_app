@@ -1,12 +1,12 @@
 /**
- * Radio SDR App - React Native
+ * Radio SDR App - Expo React Native
  * @format
  */
 
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
-import {StatusBar} from 'react-native';
+import {StatusBar} from 'expo-status-bar';
 
 import MainScreen from './src/screens/MainScreen';
 import SpectrumScreen from './src/screens/SpectrumScreen';
@@ -17,7 +17,7 @@ const Stack = createStackNavigator();
 const App: React.FC = () => {
   return (
     <NavigationContainer>
-      <StatusBar backgroundColor="#1976D2" barStyle="light-content" />
+      <StatusBar style="light" backgroundColor="#1976D2" />
       <Stack.Navigator
         initialRouteName="Main"
         screenOptions={{

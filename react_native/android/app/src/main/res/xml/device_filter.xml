@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RTL-SDR Device Filter -->
+    <usb-device vendor-id="0x0bda" product-id="0x2838" />
+    <usb-device vendor-id="0x0bda" product-id="0x2832" />
+    <usb-device vendor-id="0x0bda" product-id="0x2831" />
+    <usb-device vendor-id="0x0bda" product-id="0x2830" />
+    <usb-device vendor-id="0x0bda" product-id="0x2839" />
+    <usb-device vendor-id="0x0bda" product-id="0x283a" />
+    <usb-device vendor-id="0x0bda" product-id="0x283b" />
+    <usb-device vendor-id="0x0bda" product-id="0x283c" />
+    <usb-device vendor-id="0x0bda" product-id="0x283d" />
+    <usb-device vendor-id="0x0bda" product-id="0x283e" />
+    <usb-device vendor-id="0x0bda" product-id="0x283f" />
+</resources>
