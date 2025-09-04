@@ -418,3 +418,90 @@ Makefile*
 *.exe
 *.out
 *.app
+
+# 📡 SDR Radio Specific Files
+*.iq
+*.raw
+*.dat
+*.bin
+sdr_captures/
+frequency_scans/
+spectrum_data/
+recordings/
+test_signals/
+
+# 🔊 Audio Test Files
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.aac
+*.m4a
+test_audio/
+sample_recordings/
+audio_samples/
+
+# 📊 Analysis & Debug Files
+*.hprof
+*.trace
+*.prof
+*.perfetto-trace
+analysis_output/
+debug_logs/
+profiling_data/
+
+# 🧪 Test & Mock Data
+test_data/
+mock_data/
+fixtures/
+sample_data/
+
+# 📝 Generated Documentation
+docs/build/
+docs/api/
+javadoc/
+kotlin-docs/
+
+# 🔧 Build & Install Logs
+build_output.txt
+install_log.txt
+test_results.txt
+gradle_build.log
+adb_install.log
+
+# 📱 Device & Emulator
+.android/
+*.avd/
+emulator_data/
+
+# 🎯 Performance & Monitoring
+*.hprof
+*.trace
+memory_dumps/
+cpu_profiles/
+
+# 🔐 Security & Keys (additional)
+*.p8
+*.p12
+*.mobileprovision
+fabric.properties
+crashlytics-build.properties
+
+# 🚀 Release & Distribution
+release/
+dist/
+staging/
+publish/
+
+# 📋 Project Specific Logs
+sdr_detailed_logs.txt
+capture_logs.txt
+permissions_log.txt
+frequency_log.txt
+device_detection.log
+
+# Keep Important Files (whitelist)
+!screenshots/.gitkeep
+!docs/.gitkeep
+!test_data/.gitkeep
+!sample_data/.gitkeep
