@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sample_rates">
+        <item>250 kHz</item>
+        <item>1 MHz</item>
+        <item>1.024 MHz</item>
+        <item>1.536 MHz</item>
+        <item>1.792 MHz</item>
+        <item>1.92 MHz</item>
+        <item>2.048 MHz</item>
+        <item>2.16 MHz</item>
+        <item>2.56 MHz</item>
+        <item>2.88 MHz</item>
+        <item>3.2 MHz</item>
+    </string-array>
+    
+    <integer-array name="sample_rate_values">
+        <item>250000</item>
+        <item>1000000</item>
+        <item>1024000</item>
+        <item>1536000</item>
+        <item>1792000</item>
+        <item>1920000</item>
+        <item>2048000</item>
+        <item>2160000</item>
+        <item>2560000</item>
+        <item>2880000</item>
+        <item>3200000</item>
+    </integer-array>
+</resources>

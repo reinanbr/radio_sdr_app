@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RTL-SDR v3 -->
+    <usb-device vendor-id="0x0bda" product-id="0x2838" />
+    
+    <!-- RTL-SDR v4 -->
+    <usb-device vendor-id="0x0bda" product-id="0x2832" />
+    
+    <!-- Generic RTL2832U -->
+    <usb-device vendor-id="0x0bda" product-id="0x2832" />
+    
+    <!-- RTL2832U + R820T -->
+    <usb-device vendor-id="0x0bda" product-id="0x2838" />
+    
+    <!-- RTL2832U + R820T2 -->
+    <usb-device vendor-id="0x0bda" product-id="0x2838" />
+    
+    <!-- Generic RTL2832U devices -->
+    <usb-device vendor-id="0x0bda" />
+</resources> 

@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">SDR Radio</string>
+    
+    <!-- Main Activity -->
+    <string name="title_main">Rádio SDR</string>
+    <string name="connect_device">Conectar Dispositivo</string>
+    <string name="disconnect_device">Desconectar</string>
+    <string name="device_connected">Dispositivo Conectado</string>
+    <string name="device_disconnected">Dispositivo Desconectado</string>
+    <string name="no_device_found">Nenhum dispositivo RTL-SDR encontrado</string>
+    <string name="connecting">Conectando...</string>
+    
+    <!-- Frequency -->
+    <string name="frequency">Frequência</string>
+    <string name="frequency_mhz">MHz</string>
+    <string name="frequency_khz">kHz</string>
+    <string name="set_frequency">Definir Frequência</string>
+    <string name="current_frequency">Frequência Atual</string>
+    
+    <!-- Audio -->
+    <string name="volume">Volume</string>
+    <string name="mute">Mutar</string>
+    <string name="unmute">Desmutar</string>
+    <string name="audio_playing">Reproduzindo Áudio</string>
+    <string name="audio_stopped">Áudio Parado</string>
+    
+    <!-- Recording -->
+    <string name="start_recording">Iniciar Gravação</string>
+    <string name="stop_recording">Parar Gravação</string>
+    <string name="recording">Gravando...</string>
+    <string name="recording_stopped">Gravação Parada</string>
+    <string name="recording_saved">Gravação Salva</string>
+    <string name="recording_failed">Falha na Gravação</string>
+    
+    <!-- Spectrum -->
+    <string name="spectrum_analyzer">Analisador de Espectro</string>
+    <string name="signal_strength">Força do Sinal</string>
+    <string name="waterfall">Waterfall</string>
+    
+    <!-- Settings -->
+    <string name="settings">Configurações</string>
+    <string name="sample_rate">Taxa de Amostragem</string>
+    <string name="gain">Ganho</string>
+    <string name="bandwidth">Largura de Banda</string>
+    <string name="auto_gain">Ganho Automático</string>
+    <string name="manual_gain">Ganho Manual</string>
+    
+    <!-- Permissions -->
+    <string name="permission_required">Permissão Necessária</string>
+    <string name="usb_permission_required">Permissão USB necessária para conectar ao RTL-SDR</string>
+    <string name="storage_permission_required">Permissão de armazenamento necessária para salvar gravações</string>
+    <string name="audio_permission_required">Permissão de áudio necessária para reproduzir sinais</string>
+    
+    <!-- Errors -->
+    <string name="error_connecting">Erro ao conectar dispositivo</string>
+    <string name="error_disconnecting">Erro ao desconectar dispositivo</string>
+    <string name="error_setting_frequency">Erro ao definir frequência</string>
+    <string name="error_audio_playback">Erro na reprodução de áudio</string>
+    <string name="error_recording">Erro na gravação</string>
+    
+    <!-- Success -->
+    <string name="success_connected">Dispositivo conectado com sucesso</string>
+    <string name="success_frequency_set">Frequência definida com sucesso</string>
+    <string name="success_recording_started">Gravação iniciada</string>
+    <string name="success_recording_stopped">Gravação parada</string>
+    
+    <!-- Frequency presets -->
+    <string name="fm_radio">Rádio FM</string>
+    <string name="am_radio">Rádio AM</string>
+    <string name="airband">Aeronáutica</string>
+    <string name="marine">Marítima</string>
+    <string name="weather">Meteorologia</string>
+    <string name="ham_radio">Rádio Amador</string>
+    
+    <!-- Menu -->
+    <string name="menu_settings">Configurações</string>
+    <string name="menu_about">Sobre</string>
+    <string name="menu_help">Ajuda</string>
+    
+    <!-- About -->
+    <string name="about_title">Sobre SDR Radio</string>
+    <string name="about_description">Aplicativo de rádio SDR para Android usando RTL-SDR via OTG</string>
+    <string name="about_version">Versão 1.0</string>
+    <string name="about_developer">Desenvolvido para demonstração de SDR</string>
+</resources> 

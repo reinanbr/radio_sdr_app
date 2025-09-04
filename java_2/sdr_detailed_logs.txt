@@ -1,0 +1,815 @@
+08-18 20:23:12.071 12772 17162 W FusedLocation: mock location injection by 10406/com.just4funtools.fakegpslocationprofessional failed (not in mock mode) [CONTEXT service_id=6 ]
+08-18 20:23:12.290 16299 16475 I [-0300]oneconnect[1.8.34.21_01][CORE]: DataConvert.parseBleVd - deviceBle : |name:|deviceType:TV|discoverType:_BLE|services:None|connected:false[TvStatusString]POWER_OFF[TvStatus]-128[TvService]102[TvMirrorChannel]1[TvRegisteredDB][-40, -1, -56, -119, 87, 0][TvYear]2016[TvOcfInfo]0[TvAcmStatus]0[ExTvStatus]0[ExtendedStatus]-1[ModuloSn]-1
+08-18 20:23:14.037  3996  5417 I SDHMS:C : SIOP:: AP:399 BAT:353 USB:353 CHG:407 PA:397 WIFI:393 BLK:0 SUBBAT:0 SKIN:372 SKINF:365 SKINB:372 LRP:372 LRP2:372 LRF2:365 LRB2:372 AP2:372 CHG2:359 MEM2:372 WIFI2:372 SPK2:339 VAP05:412 
+08-18 20:23:14.129 16299 16475 I [-0300]oneconnect[1.8.34.21_01][CORE]: DataConvert.parseBleVd - deviceBle : |name:|deviceType:TV|discoverType:_BLE|services:None|connected:false[TvStatusString]POWER_OFF[TvStatus]-128[TvService]102[TvMirrorChannel]1[TvRegisteredDB][-40, -1, -56, -119, 87, 0][TvYear]2016[TvOcfInfo]0[TvAcmStatus]0[ExTvStatus]0[ExtendedStatus]-1[ModuloSn]-1
+08-18 20:23:14.232 10473 11009 W System.err: 	at okhttp3.internal.connection.f.a(SourceFile:394)
+08-18 20:23:14.232 10473 11009 W System.err: 	at okhttp3.internal.connection.a.intercept(SourceFile:62)
+08-18 20:23:14.232 10473 11009 W System.err: 	at com.mercadolibre.android.errorhandler.v2.tracks.traceability.c.intercept(SourceFile:5)
+08-18 20:23:14.233 10473 11009 W System.err: 	at okhttp3.internal.connection.j.g(SourceFile:96)
+08-18 20:23:14.233 10473 11009 W System.err: 	at okhttp3.internal.connection.g.run(SourceFile:137)
+08-18 20:23:14.233 10473 11009 W System.err: Caused by: android.system.GaiException: android_getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+08-18 20:23:14.328   885  1118 I hwcomposer: [DRMDEV] (0) failed to waitNextVsync: -1  
+08-18 20:23:14.331 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 0
+08-18 20:23:14.337   885  1118 I hwcomposer: [DRMDEV] (0) failed to waitNextVsync: -1  
+08-18 20:23:14.353   885  1118 I hwcomposer: [DRMDEV] (0) failed to waitNextVsync: -1  
+08-18 20:23:14.370   885  1118 I hwcomposer: [DRMDEV] (0) failed to waitNextVsync: -1  
+08-18 20:23:14.387   885  1118 I hwcomposer: [DRMDEV] (0) failed to waitNextVsync: -1  
+08-18 20:23:14.403   885  1118 I hwcomposer: [DRMDEV] (0) failed to waitNextVsync: -1  
+08-18 20:23:14.420   885  1118 I hwcomposer: [DRMDEV] (0) failed to waitNextVsync: -1  
+08-18 20:23:14.451 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 1
+08-18 20:23:14.453 17587 17587 D MainActivity: Tentando conectar dispositivo...
+08-18 20:23:14.453 17587 17587 E MainActivity: Nenhum dispositivo RTL-SDR encontrado
+08-18 20:23:14.458 17587 17587 I Toast   : show: caller = com.sdrradio.app.MainActivity.connectDevice:297 
+08-18 20:23:14.458 17587 17587 I Toast   : show: contextDispId = 0 mCustomDisplayId = -1 focusedDisplayId = 0 isActivityContext = true
+08-18 20:23:14.460  1519  2934 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1281 com.android.server.notification.sec.DisplayToast.sendIntentForToastDumpLog:156 com.android.server.notification.sec.DisplayToast.outFile:106 com.android.server.notification.sec.DisplayToast.out:62 com.android.server.notification.NotificationManagerService$15.enqueueToastForDex:5125 
+08-18 20:23:14.470   950   950 I BufferQueueProducer: [com.sdrradio.app/com.sdrradio.app.MainActivity$_17587#40772](this:0xb4000074aa569ba0,id:-1,api:0,p:-1,c:950) queueBuffer: fps=2.69 dur=9650.18 max=9231.27 min=15.97
+08-18 20:23:14.487  2053  2053 V ToastPresenter: yOffset = 168
+08-18 20:23:14.487  2053  2053 V ToastPresenter: Text: Oenh in android.widget.ToastPresenter@6b246fb
+08-18 20:23:14.487  2053  2053 I WindowManager: WindowManagerGlobal#addView, ty=2005, view=android.widget.LinearLayout{caae318 V.E...... ......I. 0,0-0,0}, caller=android.view.WindowManagerImpl.addView:150 android.widget.ToastPresenter.addToastView:414 android.widget.ToastPresenter.show:335 
+08-18 20:23:14.495   950  1328 E BufferQueueDebug: [78bf32c Toast#40797](this:0xb4000074aa549ba0,id:-1,api:0,p:-1,c:-1) id info cannot be read from '78bf32c Toast#40797'
+08-18 20:23:14.495   950  1328 I BufferQueueDebug: [78bf32c Toast#40797](this:0xb4000074aa549ba0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(950:/system/bin/surfaceflinger)
+08-18 20:23:14.495   950  1328 I SurfaceFlinger: id=40797 createSurf, flag=84004, 78bf32c Toast#40797
+08-18 20:23:14.498  2053  2053 I InsetsController: onStateChanged: host=Toast, from=android.view.ViewRootImpl.setView:1753, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 80 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(472, 0 - 608, 80), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 H -24.177777778 V 28.4444444444 H 24.177777778 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=0, center=Point(0, 0)}, RoundedCorner{position=TopRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomLeft, radius=0, center=Point(0, 0)}]}  mRoundedCornerFrame=Rect(0, 0 - 0, 0), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(964, 0 - 1080, 80) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {e3260001 mType=navigationBars mFrame=[0,2301][1080,2340] mVisible=true mFlags=[SUPPRESS_SCRIM]}, InsetsSource: {e3260004 mType=systemGestures mFrame=[0,0][78,2340] mVisible=true mFlags=[]}, InsetsSource: {e3260005 mType=mandatorySystemGestures mFrame=[0,2256][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {e3260006 mType=tappableElement mFrame=[0,0][0,0] mVisible=true mFlags=[]}, InsetsSource: {e3260024 mType=systemGestures mFrame=[1002,0][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags=[]}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,80] mVisible=true mFlags=[]}, InsetsSource: {737f0000 mType=statusBars mFrame=[0,0][1080,80] mVisible=true mFlags=[]}, InsetsSource: {737f0005 mType=mandatorySystemGestures mFrame=[0,0][1080,112] mVisible=true mFlags=[]}, InsetsSource: {737f0006 mType=tappableElement mFrame=[0,0][1080,80] mVisible=true mFlags=[]} }
+08-18 20:23:14.499  2053  2053 I ViewRootImpl@2843171[Toast]: synced displayState. AttachInfo displayState=2
+08-18 20:23:14.499  2053  2053 I ViewRootImpl@2843171[Toast]: setView = android.widget.LinearLayout@caae318 TM=true
+08-18 20:23:14.502  1519  4466 D CoreBackPreview: Window{78bf32c u0 Toast}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@6634b8a, mPriority=0, mIsAnimationCallback=false}
+08-18 20:23:14.502  1519  2934 V WindowManager: Relayout Window{78bf32c u0 Toast}: viewVisibility=0 req=822x116 ty=2005 d0
+08-18 20:23:14.503   950  1332 E BufferQueueDebug: [Toast$_2053#40798](this:0xb4000074aa641ba0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Toast$_2053#40798'
+08-18 20:23:14.503   950  1332 I BufferQueueDebug: [Toast$_2053#40798](this:0xb4000074aa641ba0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(950:/system/bin/surfaceflinger)
+08-18 20:23:14.504   950  1332 I SurfaceFlinger: id=40798 createSurf, flag=44004, Toast$_2053#40798
+08-18 20:23:14.505  1519  2934 D WindowManager: makeSurface duration=3 name=Toast$_2053
+08-18 20:23:14.512  2053  2053 D BufferQueueConsumer: [](id:805000008be,api:0,p:-1,c:2053) connect: controlledByApp=false
+08-18 20:23:14.513  2053  2053 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= ViewRootImpl@2843171[Toast] mNativeObject= 0xb400006dc4bc2f80 sc.mNativeObject= 0xb400006df0839180 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3028 android.view.ViewRootImpl.relayoutWindow:10131 android.view.ViewRootImpl.performTraversals:4110 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 android.view.Choreographer$CallbackRecord.run:1689 android.view.Choreographer$CallbackRecord.run:1698 android.view.Choreographer.doCallbacks:1153 android.view.Choreographer.doFrame:1079 android.view.Choreographer$FrameDisplayEventReceiver.run:1646 
+08-18 20:23:14.513  2053  2053 I BLASTBufferQueue_Java: update, w= 822 h= 116 mName = ViewRootImpl@2843171[Toast] mNativeObject= 0xb400006dc4bc2f80 sc.mNativeObject= 0xb400006df0839180 format= -3 caller= android.graphics.BLASTBufferQueue.<init>:89 android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3028 android.view.ViewRootImpl.relayoutWindow:10131 android.view.ViewRootImpl.performTraversals:4110 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 
+08-18 20:23:14.513  2053  2053 I ViewRootImpl@2843171[Toast]: Relayout returned: old=(0,80,1080,2301) new=(129,2017,951,2133) relayoutAsync=false req=(822,116)0 dur=11 res=0x3 s={true 0xb400006dc4e88800} ch=true seqId=0
+08-18 20:23:14.514  2053  2053 I ViewRootImpl@2843171[Toast]: performConfigurationChange setNightDimText nightDimLevel=0
+08-18 20:23:14.514  2053  2053 D ViewRootImpl@2843171[Toast]: mThreadedRenderer.initialize() mSurface={isValid=true 0xb400006dc4e88800} hwInitialized=true
+08-18 20:23:14.515  2053  2053 D ViewRootImpl@2843171[Toast]: reportNextDraw android.view.ViewRootImpl.performTraversals:4718 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 android.view.Choreographer$CallbackRecord.run:1689 android.view.Choreographer$CallbackRecord.run:1698 
+08-18 20:23:14.515  2053  2053 I ViewRootImpl@2843171[Toast]: Setup new sync=wmsSync-ViewRootImpl@2843171[Toast]#71
+08-18 20:23:14.515  2053  2053 I ViewRootImpl@2843171[Toast]: Creating new active sync group ViewRootImpl@2843171[Toast]#72
+08-18 20:23:14.516  2053  2053 I ViewRootImpl@2843171[Toast]: registerCallbacksForSync syncBuffer=false
+08-18 20:23:14.518  2053  2806 I ViewRootImpl@2843171[Toast]: Received frameDrawingCallback syncResult=0 frameNum=1.
+08-18 20:23:14.518  2053  2806 I ViewRootImpl@2843171[Toast]: mWNT: t=0xb400006dc49eb980 mBlastBufferQueue=0xb400006dc4bc2f80 fn= 1 mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$8.onFrameDraw:13841 android.view.ThreadedRenderer$1.onFrameDraw:792 <bottom of call stack> 
+08-18 20:23:14.518  2053  2806 I ViewRootImpl@2843171[Toast]: Setting up sync and frameCommitCallback
+08-18 20:23:14.525  2053  2217 D BLASTBufferQueue: [ViewRootImpl@2843171[Toast]#2233](f:0,a:0) onFrameAvailable the first frame is available
+08-18 20:23:14.526  2053  2217 D BLASTBufferQueue: [ViewRootImpl@2843171[Toast]#2233](f:0,a:1) acquireNextBufferLocked size=822x116 mFrameNumber=1 applyTransaction=true mTimestamp=316875511908347(auto) mPendingTransactions.size=0 graphicBufferId=8817567885330 transform=0
+08-18 20:23:14.527  2053  2217 I ViewRootImpl@2843171[Toast]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+08-18 20:23:14.529  2053  2053 I ViewRootImpl@2843171[Toast]: reportDrawFinished seqId=0
+08-18 20:23:14.529  1519  2934 D WindowManager: finishDrawingWindow: Window{78bf32c u0 Toast} mDrawState=DRAW_PENDING seqId=0
+08-18 20:23:14.532  1519  1548 I WindowManager: Reparenting to leash, surface=Surface(name=78bf32c Toast)/@0x765fb, leashParent=Surface(name=WindowToken{1976700 type=2005 android.os.Binder@7c04983})/@0xf5b1618
+08-18 20:23:14.533   950  1328 E BufferQueueDebug: [Surface(name=78bf32c Toast)/@0x765fb - animation-leash of window_animation#40799](this:0xb4000074aa408ba0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Surface(name=78bf32c Toast)/@0x765fb - animation-leash of window_animation#40799'
+08-18 20:23:14.533   950  1328 I BufferQueueDebug: [Surface(name=78bf32c Toast)/@0x765fb - animation-leash of window_animation#40799](this:0xb4000074aa408ba0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(950:/system/bin/surfaceflinger)
+08-18 20:23:14.534   950  1328 I SurfaceFlinger: id=40799 createSurf, flag=24004, Surface(name=78bf32c Toast)/@0x765fb - animation-leash of window_animation#40799
+08-18 20:23:14.535  1519  1548 D WindowManager: makeSurface duration=3 leash=Surface(name=Surface(name=78bf32c Toast)/@0x765fb - animation-leash of window_animation)/@0x913e871
+08-18 20:23:14.535  1519  1548 V WindowManager: performShowLocked: mDrawState=HAS_DRAWN in Window{78bf32c u0 Toast}
+08-18 20:23:14.544   950   950 I Layer   : Layer [Toast$_2053#40798] hidden!! flag(0)
+08-18 20:23:14.584   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074aa93aa80 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2340.0 |    0    0 1080 2340 | com.sdrradio.app/com.sdrradio.app.MainActivity$_17587#40772
+08-18 20:23:14.584   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074ab26e440 | 0100 | RGBA_8888    |    0.0    0.0  822.0  116.0 |  129 2017  951 2133 | Toast$_2053#40798
+08-18 20:23:14.626 12772 17162 W FusedLocation: mock location injection by 10406/com.just4funtools.fakegpslocationprofessional failed (not in mock mode) [CONTEXT service_id=6 ]
+08-18 20:23:15.045  1519  1548 I WindowManager: Reparenting to original parent: Surface(name=WindowToken{1976700 type=2005 android.os.Binder@7c04983})/@0xf5b1618, destroy=true, surface=Surface(name=78bf32c Toast)/@0x765fb
+08-18 20:23:15.060   950   950 I Layer   : id=40799 removeFromCurrentState Surface(name=78bf32c Toast)/@0x765fb - animation-leash of window_animation#40799 (220)
+08-18 20:23:15.063   950   950 I SurfaceFlinger: id=40799 Removed Surface(name=78bf32c Toast)/@0x765fb - animation-leash of window_animation#40799 (220)
+08-18 20:23:15.078   950   950 I BufferQueueDebug: [Surface(name=78bf32c Toast)/@0x765fb - animation-leash of window_animation#40799](this:0xb4000074aa408ba0,id:-1,api:0,p:-1,c:950) onDestructor()
+08-18 20:23:15.078   950   950 I Layer   : id=40799 Destroyed Surface(name=78bf32c Toast)/@0x765fb - animation-leash of window_animation#40799
+08-18 20:23:15.627 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 0
+08-18 20:23:15.752 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 1
+08-18 20:23:15.755 17587 17587 D MainActivity: Tentando conectar dispositivo...
+08-18 20:23:15.755 17587 17587 E MainActivity: Nenhum dispositivo RTL-SDR encontrado
+08-18 20:23:15.759   950   950 I BufferQueueProducer: [com.sdrradio.app/com.sdrradio.app.MainActivity$_17587#40772](this:0xb4000074aa569ba0,id:-1,api:0,p:-1,c:950) queueBuffer: fps=18.63 dur=1288.25 max=898.60 min=15.67
+08-18 20:23:15.761 17587 17587 I Toast   : show: caller = com.sdrradio.app.MainActivity.connectDevice:297 
+08-18 20:23:15.761 17587 17587 I Toast   : show: contextDispId = 0 mCustomDisplayId = -1 focusedDisplayId = 0 isActivityContext = true
+08-18 20:23:15.764  1519  4466 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1281 com.android.server.notification.sec.DisplayToast.sendIntentForToastDumpLog:156 com.android.server.notification.sec.DisplayToast.outFile:106 com.android.server.notification.sec.DisplayToast.out:62 com.android.server.notification.NotificationManagerService$15.enqueueToastForDex:5125 
+08-18 20:23:15.968 16299 16475 I [-0300]oneconnect[1.8.34.21_01][CORE]: DataConvert.parseBleVd - deviceBle : |name:|deviceType:TV|discoverType:_BLE|services:None|connected:false[TvStatusString]POWER_OFF[TvStatus]-128[TvService]102[TvMirrorChannel]1[TvRegisteredDB][-40, -1, -56, -119, 87, 0][TvYear]2016[TvOcfInfo]0[TvAcmStatus]0[ExTvStatus]0[ExtendedStatus]-1[ModuloSn]-1
+08-18 20:23:16.124 16299 16475 I [-0300]oneconnect[1.8.34.21_01][CORE]: DataConvert.parseBleVd - deviceBle : |name:|deviceType:TV|discoverType:_BLE|services:None|connected:false[TvStatusString]POWER_OFF[TvStatus]-128[TvService]102[TvMirrorChannel]1[TvRegisteredDB][-40, -1, -56, -119, 87, 0][TvYear]2016[TvOcfInfo]0[TvAcmStatus]0[ExTvStatus]0[ExtendedStatus]-1[ModuloSn]-1
+08-18 20:23:16.532 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 0
+08-18 20:23:16.680 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 1
+08-18 20:23:16.682 17587 17587 D MainActivity: Tentando conectar dispositivo...
+08-18 20:23:16.682 17587 17587 E MainActivity: Nenhum dispositivo RTL-SDR encontrado
+08-18 20:23:16.688 17587 17587 I Toast   : show: caller = com.sdrradio.app.MainActivity.connectDevice:297 
+08-18 20:23:16.689 17587 17587 I Toast   : show: contextDispId = 0 mCustomDisplayId = -1 focusedDisplayId = 0 isActivityContext = true
+08-18 20:23:16.692  1519  1535 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1281 com.android.server.notification.sec.DisplayToast.sendIntentForToastDumpLog:156 com.android.server.notification.sec.DisplayToast.outFile:106 com.android.server.notification.sec.DisplayToast.out:62 com.android.server.notification.NotificationManagerService$15.enqueueToastForDex:5125 
+08-18 20:23:16.774   950   950 I BufferQueueProducer: [com.sdrradio.app/com.sdrradio.app.MainActivity$_17587#40772](this:0xb4000074aa569ba0,id:-1,api:0,p:-1,c:950) queueBuffer: fps=30.53 dur=1015.53 max=515.92 min=16.27
+08-18 20:23:16.800  2053  2053 I WindowManager: WindowManagerGlobal#removeView, ty=2005, view=android.widget.LinearLayout{caae318 V.E...... ........ 0,0-822,116}, caller=android.view.WindowManagerGlobal.removeView:628 android.view.WindowManagerImpl.removeViewImmediate:208 android.widget.ToastPresenter.hide:358 
+08-18 20:23:16.801  1519  1535 D CoreBackPreview: Window{78bf32c u0 Toast}: Setting back callback null
+08-18 20:23:16.805  2053  2053 I ViewRootImpl@2843171[Toast]: dispatchDetachedFromWindow
+08-18 20:23:16.805  2053  2053 D BLASTBufferQueue: [ViewRootImpl@2843171[Toast]#2233](f:0,a:1) destructor()
+08-18 20:23:16.805  2053  2053 D BufferQueueConsumer: [ViewRootImpl@2843171[Toast]#2233(BLAST Consumer)2233](id:805000008be,api:0,p:-1,c:2053) disconnect
+08-18 20:23:16.806  1519  1535 W InputManager-JNI: Input channel object '78bf32c Toast (client)' was disposed without first being removed with the input manager!
+08-18 20:23:16.807  1519  1535 V WindowManager: Remove Window{78bf32c u0 Toast}: mSurfaceController=Surface(name=Toast$_2053)/@0x15ecfe1 mAnimatingExit=false mRemoveOnExit=false mHasSurface=true surfaceShowing=true animating=false app-animation=false mDisplayFrozen=false callers=com.android.server.wm.WindowManagerService.removeWindow:2148 com.android.server.wm.Session.remove:257 android.view.IWindowSession$Stub.onTransact:747 com.android.server.wm.Session.onTransact:204 android.os.Binder.execTransactInternal:1380 android.os.Binder.execTransact:1311 
+08-18 20:23:16.807  1519  1535 I WindowManager: Reparenting to leash, surface=Surface(name=78bf32c Toast)/@0x765fb, leashParent=Surface(name=WindowToken{1976700 type=2005 android.os.Binder@7c04983})/@0xf5b1618
+08-18 20:23:16.808   950  1328 E BufferQueueDebug: [Surface(name=78bf32c Toast)/@0x765fb - animation-leash of window_animation#40802](this:0xb4000074aa45bba0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Surface(name=78bf32c Toast)/@0x765fb - animation-leash of window_animation#40802'
+08-18 20:23:16.808   950  1328 I BufferQueueDebug: [Surface(name=78bf32c Toast)/@0x765fb - animation-leash of window_animation#40802](this:0xb4000074aa45bba0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(950:/system/bin/surfaceflinger)
+08-18 20:23:16.808   950  1328 I SurfaceFlinger: id=40802 createSurf, flag=24000, Surface(name=78bf32c Toast)/@0x765fb - animation-leash of window_animation#40802
+08-18 20:23:16.810  1519  1535 D WindowManager: makeSurface duration=2 leash=Surface(name=Surface(name=78bf32c Toast)/@0x765fb - animation-leash of window_animation)/@0x1bb4106
+08-18 20:23:16.811  1519  1535 V WindowManager: removeIfPossible 2, Window{78bf32c u0 Toast}: mAnimatingExit=true caller=com.android.server.wm.WindowManagerService.removeWindow:2148 com.android.server.wm.Session.remove:257 android.view.IWindowSession$Stub.onTransact:747 com.android.server.wm.Session.onTransact:204 android.os.Binder.execTransactInternal:1380 
+08-18 20:23:16.815  1519  1535 W NotificationService: Toast already killed. pkg=com.sdrradio.app token=android.os.BinderProxy@b2eb3c7
+08-18 20:23:16.822 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 0
+08-18 20:23:16.830  2053  2053 V ToastPresenter: yOffset = 168
+08-18 20:23:16.830  2053  2053 V ToastPresenter: Text: Oenh in android.widget.ToastPresenter@ba55fde
+08-18 20:23:16.831  2053  2053 I WindowManager: WindowManagerGlobal#addView, ty=2005, view=android.widget.LinearLayout{c53a5bf V.E...... ......I. 0,0-0,0}, caller=android.view.WindowManagerImpl.addView:150 android.widget.ToastPresenter.addToastView:414 android.widget.ToastPresenter.show:335 
+08-18 20:23:16.835   950  1010 E BufferQueueDebug: [858c563 Toast#40803](this:0xb4000074aa690ba0,id:-1,api:0,p:-1,c:-1) id info cannot be read from '858c563 Toast#40803'
+08-18 20:23:16.835   950  1010 I BufferQueueDebug: [858c563 Toast#40803](this:0xb4000074aa690ba0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(950:/system/bin/surfaceflinger)
+08-18 20:23:16.835   950  1010 I SurfaceFlinger: id=40803 createSurf, flag=84004, 858c563 Toast#40803
+08-18 20:23:16.837  2053  2053 I InsetsController: onStateChanged: host=Toast, from=android.view.ViewRootImpl.setView:1753, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 80 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(472, 0 - 608, 80), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 H -24.177777778 V 28.4444444444 H 24.177777778 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=0, center=Point(0, 0)}, RoundedCorner{position=TopRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomLeft, radius=0, center=Point(0, 0)}]}  mRoundedCornerFrame=Rect(0, 0 - 0, 0), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(964, 0 - 1080, 80) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {e3260001 mType=navigationBars mFrame=[0,2301][1080,2340] mVisible=true mFlags=[SUPPRESS_SCRIM]}, InsetsSource: {e3260004 mType=systemGestures mFrame=[0,0][78,2340] mVisible=true mFlags=[]}, InsetsSource: {e3260005 mType=mandatorySystemGestures mFrame=[0,2256][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {e3260006 mType=tappableElement mFrame=[0,0][0,0] mVisible=true mFlags=[]}, InsetsSource: {e3260024 mType=systemGestures mFrame=[1002,0][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags=[]}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,80] mVisible=true mFlags=[]}, InsetsSource: {737f0000 mType=statusBars mFrame=[0,0][1080,80] mVisible=true mFlags=[]}, InsetsSource: {737f0005 mType=mandatorySystemGestures mFrame=[0,0][1080,112] mVisible=true mFlags=[]}, InsetsSource: {737f0006 mType=tappableElement mFrame=[0,0][1080,80] mVisible=true mFlags=[]} }
+08-18 20:23:16.837  2053  2053 I ViewRootImpl@cd7f48c[Toast]: synced displayState. AttachInfo displayState=2
+08-18 20:23:16.837  2053  2053 I ViewRootImpl@cd7f48c[Toast]: setView = android.widget.LinearLayout@c53a5bf TM=true
+08-18 20:23:16.839  1519  4466 D CoreBackPreview: Window{858c563 u0 Toast}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@5a89a19, mPriority=0, mIsAnimationCallback=false}
+08-18 20:23:16.840  1519  1535 V WindowManager: Relayout Window{858c563 u0 Toast}: viewVisibility=0 req=822x116 ty=2005 d0
+08-18 20:23:16.841   950  1010 E BufferQueueDebug: [Toast$_2053#40804](this:0xb4000074aa693ba0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Toast$_2053#40804'
+08-18 20:23:16.842   950  1010 I BufferQueueDebug: [Toast$_2053#40804](this:0xb4000074aa693ba0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(950:/system/bin/surfaceflinger)
+08-18 20:23:16.842   950  1010 I SurfaceFlinger: id=40804 createSurf, flag=44004, Toast$_2053#40804
+08-18 20:23:16.844  1519  1535 D WindowManager: makeSurface duration=4 name=Toast$_2053
+08-18 20:23:16.852  2053  2053 D BufferQueueConsumer: [](id:805000008bf,api:0,p:-1,c:2053) connect: controlledByApp=false
+08-18 20:23:16.852  2053  2053 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= ViewRootImpl@cd7f48c[Toast] mNativeObject= 0xb400006dc4bc2f80 sc.mNativeObject= 0xb400006df085db00 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3028 android.view.ViewRootImpl.relayoutWindow:10131 android.view.ViewRootImpl.performTraversals:4110 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 android.view.Choreographer$CallbackRecord.run:1689 android.view.Choreographer$CallbackRecord.run:1698 android.view.Choreographer.doCallbacks:1153 android.view.Choreographer.doFrame:1079 android.view.Choreographer$FrameDisplayEventReceiver.run:1646 
+08-18 20:23:16.852  2053  2053 I BLASTBufferQueue_Java: update, w= 822 h= 116 mName = ViewRootImpl@cd7f48c[Toast] mNativeObject= 0xb400006dc4bc2f80 sc.mNativeObject= 0xb400006df085db00 format= -3 caller= android.graphics.BLASTBufferQueue.<init>:89 android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3028 android.view.ViewRootImpl.relayoutWindow:10131 android.view.ViewRootImpl.performTraversals:4110 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 
+08-18 20:23:16.853  2053  2053 I ViewRootImpl@cd7f48c[Toast]: Relayout returned: old=(0,80,1080,2301) new=(129,2017,951,2133) relayoutAsync=false req=(822,116)0 dur=13 res=0x3 s={true 0xb400006dc4e88800} ch=true seqId=0
+08-18 20:23:16.853  2053  2053 I ViewRootImpl@cd7f48c[Toast]: performConfigurationChange setNightDimText nightDimLevel=0
+08-18 20:23:16.854  2053  2053 D ViewRootImpl@cd7f48c[Toast]: mThreadedRenderer.initialize() mSurface={isValid=true 0xb400006dc4e88800} hwInitialized=true
+08-18 20:23:16.854  2053  2053 D ViewRootImpl@cd7f48c[Toast]: reportNextDraw android.view.ViewRootImpl.performTraversals:4718 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 android.view.Choreographer$CallbackRecord.run:1689 android.view.Choreographer$CallbackRecord.run:1698 
+08-18 20:23:16.854  2053  2053 I ViewRootImpl@cd7f48c[Toast]: Setup new sync=wmsSync-ViewRootImpl@cd7f48c[Toast]#73
+08-18 20:23:16.854  2053  2053 I ViewRootImpl@cd7f48c[Toast]: Creating new active sync group ViewRootImpl@cd7f48c[Toast]#74
+08-18 20:23:16.857  2053  2053 I ViewRootImpl@cd7f48c[Toast]: registerCallbacksForSync syncBuffer=false
+08-18 20:23:16.860  2053  2807 I ViewRootImpl@cd7f48c[Toast]: Received frameDrawingCallback syncResult=0 frameNum=1.
+08-18 20:23:16.860  2053  2807 I ViewRootImpl@cd7f48c[Toast]: mWNT: t=0xb400006dc4a15b00 mBlastBufferQueue=0xb400006dc4bc2f80 fn= 1 mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$8.onFrameDraw:13841 android.view.ThreadedRenderer$1.onFrameDraw:792 <bottom of call stack> 
+08-18 20:23:16.860  2053  2807 I ViewRootImpl@cd7f48c[Toast]: Setting up sync and frameCommitCallback
+08-18 20:23:16.861  2053  2217 D BLASTBufferQueue: [ViewRootImpl@cd7f48c[Toast]#2234](f:0,a:0) onFrameAvailable the first frame is available
+08-18 20:23:16.862  2053  2217 D BLASTBufferQueue: [ViewRootImpl@cd7f48c[Toast]#2234](f:0,a:1) acquireNextBufferLocked size=822x116 mFrameNumber=1 applyTransaction=true mTimestamp=316877848160963(auto) mPendingTransactions.size=0 graphicBufferId=8817567885334 transform=0
+08-18 20:23:16.862  2053  2217 I ViewRootImpl@cd7f48c[Toast]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+08-18 20:23:16.863  2053  2053 I ViewRootImpl@cd7f48c[Toast]: reportDrawFinished seqId=0
+08-18 20:23:16.863  1519  1535 D WindowManager: finishDrawingWindow: Window{858c563 u0 Toast} mDrawState=DRAW_PENDING seqId=0
+08-18 20:23:16.864  1519  1548 I WindowManager: Reparenting to leash, surface=Surface(name=858c563 Toast)/@0x88854bf, leashParent=Surface(name=WindowToken{8b634a9 type=2005 android.os.Binder@ad29030})/@0x698778c
+08-18 20:23:16.865   950  1010 E BufferQueueDebug: [Surface(name=858c563 Toast)/@0x88854bf - animation-leash of window_animation#40805](this:0xb4000074aa408ba0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Surface(name=858c563 Toast)/@0x88854bf - animation-leash of window_animation#40805'
+08-18 20:23:16.865   950  1010 I BufferQueueDebug: [Surface(name=858c563 Toast)/@0x88854bf - animation-leash of window_animation#40805](this:0xb4000074aa408ba0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(950:/system/bin/surfaceflinger)
+08-18 20:23:16.865   950  1010 I SurfaceFlinger: id=40805 createSurf, flag=24004, Surface(name=858c563 Toast)/@0x88854bf - animation-leash of window_animation#40805
+08-18 20:23:16.865  1519  1548 D WindowManager: makeSurface duration=1 leash=Surface(name=Surface(name=858c563 Toast)/@0x88854bf - animation-leash of window_animation)/@0x59fbed5
+08-18 20:23:16.866  1519  1548 V WindowManager: performShowLocked: mDrawState=HAS_DRAWN in Window{858c563 u0 Toast}
+08-18 20:23:16.916   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074afdd6640 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2340.0 |    0    0 1080 2340 | com.sdrradio.app/com.sdrradio.app.MainActivity$_17587#40772
+08-18 20:23:16.916   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074ab26e440 | 0100 | RGBA_8888    |    0.0    0.0  822.0  116.0 |  129 2017  951 2133 | Toast$_2053#40798
+08-18 20:23:16.916   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074ce4e3600 | 0100 | RGBA_8888    |    0.0    0.0  822.0  116.0 |  129 2017  951 2133 | Toast$_2053#40804
+08-18 20:23:16.933 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 1
+08-18 20:23:16.935 17587 17587 D MainActivity: Tentando conectar dispositivo...
+08-18 20:23:16.935 17587 17587 E MainActivity: Nenhum dispositivo RTL-SDR encontrado
+08-18 20:23:16.939 17587 17587 I Toast   : show: caller = com.sdrradio.app.MainActivity.connectDevice:297 
+08-18 20:23:16.940 17587 17587 I Toast   : show: contextDispId = 0 mCustomDisplayId = -1 focusedDisplayId = 0 isActivityContext = true
+08-18 20:23:16.943  1519  1535 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1281 com.android.server.notification.sec.DisplayToast.sendIntentForToastDumpLog:156 com.android.server.notification.sec.DisplayToast.outFile:106 com.android.server.notification.sec.DisplayToast.out:62 com.android.server.notification.NotificationManagerService$15.enqueueToastForDex:5125 
+08-18 20:23:17.341  1519  1548 I WindowManager: Reparenting to original parent: Surface(name=WindowToken{1976700 type=2005 android.os.Binder@7c04983})/@0xf5b1618, destroy=true, surface=Surface(name=78bf32c Toast)/@0x765fb
+08-18 20:23:17.358  1519  1548 I WindowManager: Destroying surface Surface(name=Toast$_2053)/@0x15ecfe1 called by com.android.server.wm.WindowStateAnimator.destroySurface:799 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:472 com.android.server.wm.WindowState.removeImmediately:2937 com.android.server.wm.WindowState.handleCompleteDeferredRemoval:5780 com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval:1476 com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval:1476 com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval:1476 com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval:1476 
+08-18 20:23:17.364   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074aa938000 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2340.0 |    0    0 1080 2340 | com.sdrradio.app/com.sdrradio.app.MainActivity$_17587#40772
+08-18 20:23:17.364   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074ce4e3600 | 0100 | RGBA_8888    |    0.0    0.0  822.0  116.0 |  129 2017  951 2133 | Toast$_2053#40804
+08-18 20:23:17.373   950   950 I Layer   : id=40797 removeFromCurrentState 78bf32c Toast#40797 (226)
+08-18 20:23:17.374   950   950 I Layer   : id=40798 removeFromCurrentState Toast$_2053#40798 (226)
+08-18 20:23:17.374   950   950 I Layer   : id=40802 removeFromCurrentState Surface(name=78bf32c Toast)/@0x765fb - animation-leash of window_animation#40802 (226)
+08-18 20:23:17.374   950   950 I Layer   : Layer [Toast$_2053#40798] hidden!! flag(1)
+08-18 20:23:17.374   950   950 I Layer   : id=40798 removeFromCurrentState Toast$_2053#40798 (226)
+08-18 20:23:17.376   950   950 I SurfaceFlinger: id=40798 Removed Toast$_2053#40798 (226)
+08-18 20:23:17.376   950   950 I SurfaceFlinger: id=40802 Removed Surface(name=78bf32c Toast)/@0x765fb - animation-leash of window_animation#40802 (226)
+08-18 20:23:17.376   950   950 I SurfaceFlinger: id=40797 Removed 78bf32c Toast#40797 (226)
+08-18 20:23:17.390   950   950 I BufferQueueDebug: [Surface(name=78bf32c Toast)/@0x765fb - animation-leash of window_animation#40802](this:0xb4000074aa45bba0,id:-1,api:0,p:-1,c:950) onDestructor()
+08-18 20:23:17.390   950   950 I Layer   : id=40802 Destroyed Surface(name=78bf32c Toast)/@0x765fb - animation-leash of window_animation#40802
+08-18 20:23:17.390   950   950 I BufferQueueDebug: [78bf32c Toast#40797](this:0xb4000074aa549ba0,id:-1,api:0,p:-1,c:950) onDestructor()
+08-18 20:23:17.390   950   950 I Layer   : id=40797 Destroyed 78bf32c Toast#40797
+08-18 20:23:17.391   950   950 I BufferQueueDebug: [Toast$_2053#40798](this:0xb4000074aa641ba0,id:-1,api:0,p:-1,c:950) onDestructor()
+08-18 20:23:17.391   950   950 I Layer   : id=40798 Destroyed Toast$_2053#40798
+08-18 20:23:17.391  1519  1548 I WindowManager: Reparenting to original parent: Surface(name=WindowToken{8b634a9 type=2005 android.os.Binder@ad29030})/@0x698778c, destroy=true, surface=Surface(name=858c563 Toast)/@0x88854bf
+08-18 20:23:17.407   950   950 I Layer   : id=40805 removeFromCurrentState Surface(name=858c563 Toast)/@0x88854bf - animation-leash of window_animation#40805 (223)
+08-18 20:23:17.409   950   950 I SurfaceFlinger: id=40805 Removed Surface(name=858c563 Toast)/@0x88854bf - animation-leash of window_animation#40805 (223)
+08-18 20:23:17.424   950   950 I BufferQueueDebug: [Surface(name=858c563 Toast)/@0x88854bf - animation-leash of window_animation#40805](this:0xb4000074aa408ba0,id:-1,api:0,p:-1,c:950) onDestructor()
+08-18 20:23:17.424   950   950 I Layer   : id=40805 Destroyed Surface(name=858c563 Toast)/@0x88854bf - animation-leash of window_animation#40805
+08-18 20:23:17.509 12772 17162 W FusedLocation: mock location injection by 10406/com.just4funtools.fakegpslocationprofessional failed (not in mock mode) [CONTEXT service_id=6 ]
+08-18 20:23:17.659 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 0
+08-18 20:23:17.774 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 1
+08-18 20:23:17.828 16299 16475 I [-0300]oneconnect[1.8.34.21_01][CORE]: DataConvert.parseBleVd - deviceBle : |name:|deviceType:TV|discoverType:_BLE|services:None|connected:false[TvStatusString]POWER_OFF[TvStatus]-128[TvService]102[TvMirrorChannel]1[TvRegisteredDB][-40, -1, -56, -119, 87, 0][TvYear]2016[TvOcfInfo]0[TvAcmStatus]0[ExTvStatus]0[ExtendedStatus]-1[ModuloSn]-1
+08-18 20:23:18.204 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 0
+08-18 20:23:18.315 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 1
+08-18 20:23:18.333 17587 17587 I Toast   : show: caller = com.sdrradio.app.MainActivity.startRecording:419 
+08-18 20:23:18.334 17587 17587 I Toast   : show: contextDispId = 0 mCustomDisplayId = -1 focusedDisplayId = 0 isActivityContext = true
+08-18 20:23:18.336  1519  2934 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1281 com.android.server.notification.sec.DisplayToast.sendIntentForToastDumpLog:156 com.android.server.notification.sec.DisplayToast.outFile:106 com.android.server.notification.sec.DisplayToast.out:62 com.android.server.notification.NotificationManagerService$15.enqueueToastForDex:5125 
+08-18 20:23:18.339   950   950 I BufferQueueProducer: [com.sdrradio.app/com.sdrradio.app.MainActivity$_17587#40772](this:0xb4000074aa569ba0,id:-1,api:0,p:-1,c:950) queueBuffer: fps=21.73 dur=1564.60 max=1015.53 min=16.13
+08-18 20:23:18.372   886   923 E BatteryDump: !@new_battery_dump : 3782,315,475,550,26,353,353,404,0,0,375,404,0,Charging,NO_CHARGING,Normal,Good,USB,1,Normal,0,0,9600,0x0,0x10000,0x0,0,0,0000,0000,00000000,0,0,0,0,218,3763,2590,990,0,
+08-18 20:23:18.391  2053  2053 I AODBatteryManager: saveBatteryData : AOD BatteryData [mBatteryLevel=26, mBatteryStatus=CHARGING, mBatteryPlugType=USB, mBatteryPlugged=true, mRemainingChargeTime=27502000, mBatteryChargingType=1, mBatteryChargerType=NORMAL, mBatteryOnline=USB, mBatterySwellingMode=NONE, mBatteryProtectMode=false, mBatteryProtectModeType=1, mSleepChargingEvent=null, mSleepChargingEventFinishTime=null]
+08-18 20:23:19.384  2053  2053 I WindowManager: WindowManagerGlobal#removeView, ty=2005, view=android.widget.LinearLayout{c53a5bf V.E...... ........ 0,0-822,116}, caller=android.view.WindowManagerGlobal.removeView:628 android.view.WindowManagerImpl.removeViewImmediate:208 android.widget.ToastPresenter.hide:358 
+08-18 20:23:19.386  1519  4466 D CoreBackPreview: Window{858c563 u0 Toast}: Setting back callback null
+08-18 20:23:19.387  2053  2053 I ViewRootImpl@cd7f48c[Toast]: dispatchDetachedFromWindow
+08-18 20:23:19.388  2053  2053 D BLASTBufferQueue: [ViewRootImpl@cd7f48c[Toast]#2234](f:0,a:1) destructor()
+08-18 20:23:19.388  2053  2053 D BufferQueueConsumer: [ViewRootImpl@cd7f48c[Toast]#2234(BLAST Consumer)2234](id:805000008bf,api:0,p:-1,c:2053) disconnect
+08-18 20:23:19.391  1519  1535 W InputManager-JNI: Input channel object '858c563 Toast (client)' was disposed without first being removed with the input manager!
+08-18 20:23:19.392  1519  1535 V WindowManager: Remove Window{858c563 u0 Toast}: mSurfaceController=Surface(name=Toast$_2053)/@0x6ed16f2 mAnimatingExit=false mRemoveOnExit=false mHasSurface=true surfaceShowing=true animating=false app-animation=false mDisplayFrozen=false callers=com.android.server.wm.WindowManagerService.removeWindow:2148 com.android.server.wm.Session.remove:257 android.view.IWindowSession$Stub.onTransact:747 com.android.server.wm.Session.onTransact:204 android.os.Binder.execTransactInternal:1380 android.os.Binder.execTransact:1311 
+08-18 20:23:19.392  1519  1535 I WindowManager: Reparenting to leash, surface=Surface(name=858c563 Toast)/@0x88854bf, leashParent=Surface(name=WindowToken{8b634a9 type=2005 android.os.Binder@ad29030})/@0x698778c
+08-18 20:23:19.392   950  1328 E BufferQueueDebug: [Surface(name=858c563 Toast)/@0x88854bf - animation-leash of window_animation#40808](this:0xb4000074aa4caba0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Surface(name=858c563 Toast)/@0x88854bf - animation-leash of window_animation#40808'
+08-18 20:23:19.392   950  1328 I BufferQueueDebug: [Surface(name=858c563 Toast)/@0x88854bf - animation-leash of window_animation#40808](this:0xb4000074aa4caba0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(950:/system/bin/surfaceflinger)
+08-18 20:23:19.394   950  1328 I SurfaceFlinger: id=40808 createSurf, flag=24000, Surface(name=858c563 Toast)/@0x88854bf - animation-leash of window_animation#40808
+08-18 20:23:19.395  1519  1535 D WindowManager: makeSurface duration=3 leash=Surface(name=Surface(name=858c563 Toast)/@0x88854bf - animation-leash of window_animation)/@0x11cb143
+08-18 20:23:19.395  1519  1535 V WindowManager: removeIfPossible 2, Window{858c563 u0 Toast}: mAnimatingExit=true caller=com.android.server.wm.WindowManagerService.removeWindow:2148 com.android.server.wm.Session.remove:257 android.view.IWindowSession$Stub.onTransact:747 com.android.server.wm.Session.onTransact:204 android.os.Binder.execTransactInternal:1380 
+08-18 20:23:19.400  1519  1535 W NotificationService: Toast already killed. pkg=com.sdrradio.app token=android.os.BinderProxy@40c13c0
+08-18 20:23:19.424  2053  2053 V ToastPresenter: yOffset = 168
+08-18 20:23:19.424  2053  2053 V ToastPresenter: Text: Oenh in android.widget.ToastPresenter@4c872fd
+08-18 20:23:19.424  2053  2053 I WindowManager: WindowManagerGlobal#addView, ty=2005, view=android.widget.LinearLayout{9103bf2 V.E...... ......I. 0,0-0,0}, caller=android.view.WindowManagerImpl.addView:150 android.widget.ToastPresenter.addToastView:414 android.widget.ToastPresenter.show:335 
+08-18 20:23:19.429   950  1328 E BufferQueueDebug: [5d94bb5 Toast#40809](this:0xb4000074aa4e4ba0,id:-1,api:0,p:-1,c:-1) id info cannot be read from '5d94bb5 Toast#40809'
+08-18 20:23:19.430   950  1328 I BufferQueueDebug: [5d94bb5 Toast#40809](this:0xb4000074aa4e4ba0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(950:/system/bin/surfaceflinger)
+08-18 20:23:19.430   950  1328 I SurfaceFlinger: id=40809 createSurf, flag=84004, 5d94bb5 Toast#40809
+08-18 20:23:19.433  2053  2053 I InsetsController: onStateChanged: host=Toast, from=android.view.ViewRootImpl.setView:1753, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 80 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(472, 0 - 608, 80), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 H -24.177777778 V 28.4444444444 H 24.177777778 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=0, center=Point(0, 0)}, RoundedCorner{position=TopRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomLeft, radius=0, center=Point(0, 0)}]}  mRoundedCornerFrame=Rect(0, 0 - 0, 0), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(964, 0 - 1080, 80) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {e3260001 mType=navigationBars mFrame=[0,2301][1080,2340] mVisible=true mFlags=[SUPPRESS_SCRIM]}, InsetsSource: {e3260004 mType=systemGestures mFrame=[0,0][78,2340] mVisible=true mFlags=[]}, InsetsSource: {e3260005 mType=mandatorySystemGestures mFrame=[0,2256][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {e3260006 mType=tappableElement mFrame=[0,0][0,0] mVisible=true mFlags=[]}, InsetsSource: {e3260024 mType=systemGestures mFrame=[1002,0][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags=[]}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,80] mVisible=true mFlags=[]}, InsetsSource: {737f0000 mType=statusBars mFrame=[0,0][1080,80] mVisible=true mFlags=[]}, InsetsSource: {737f0005 mType=mandatorySystemGestures mFrame=[0,0][1080,112] mVisible=true mFlags=[]}, InsetsSource: {737f0006 mType=tappableElement mFrame=[0,0][1080,80] mVisible=true mFlags=[]} }
+08-18 20:23:19.433  2053  2053 I ViewRootImpl@d597243[Toast]: synced displayState. AttachInfo displayState=2
+08-18 20:23:19.433  2053  2053 I ViewRootImpl@d597243[Toast]: setView = android.widget.LinearLayout@9103bf2 TM=true
+08-18 20:23:19.435  1519  4466 D CoreBackPreview: Window{5d94bb5 u0 Toast}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@41105bb, mPriority=0, mIsAnimationCallback=false}
+08-18 20:23:19.435  1519  1535 V WindowManager: Relayout Window{5d94bb5 u0 Toast}: viewVisibility=0 req=822x116 ty=2005 d0
+08-18 20:23:19.436   950  1328 E BufferQueueDebug: [Toast$_2053#40810](this:0xb4000074aa513ba0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Toast$_2053#40810'
+08-18 20:23:19.436   950  1328 I BufferQueueDebug: [Toast$_2053#40810](this:0xb4000074aa513ba0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(950:/system/bin/surfaceflinger)
+08-18 20:23:19.436   950  1328 I SurfaceFlinger: id=40810 createSurf, flag=44004, Toast$_2053#40810
+08-18 20:23:19.436  1519  1535 D WindowManager: makeSurface duration=1 name=Toast$_2053
+08-18 20:23:19.442  2053  2053 D BufferQueueConsumer: [](id:805000008c0,api:0,p:-1,c:2053) connect: controlledByApp=false
+08-18 20:23:19.443  2053  2053 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= ViewRootImpl@d597243[Toast] mNativeObject= 0xb400006dc4bc2f80 sc.mNativeObject= 0xb400006df08f2bc0 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3028 android.view.ViewRootImpl.relayoutWindow:10131 android.view.ViewRootImpl.performTraversals:4110 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 android.view.Choreographer$CallbackRecord.run:1689 android.view.Choreographer$CallbackRecord.run:1698 android.view.Choreographer.doCallbacks:1153 android.view.Choreographer.doFrame:1079 android.view.Choreographer$FrameDisplayEventReceiver.run:1646 
+08-18 20:23:19.443  2053  2053 I BLASTBufferQueue_Java: update, w= 822 h= 116 mName = ViewRootImpl@d597243[Toast] mNativeObject= 0xb400006dc4bc2f80 sc.mNativeObject= 0xb400006df08f2bc0 format= -3 caller= android.graphics.BLASTBufferQueue.<init>:89 android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3028 android.view.ViewRootImpl.relayoutWindow:10131 android.view.ViewRootImpl.performTraversals:4110 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 
+08-18 20:23:19.444  2053  2053 I ViewRootImpl@d597243[Toast]: Relayout returned: old=(0,80,1080,2301) new=(129,2017,951,2133) relayoutAsync=false req=(822,116)0 dur=7 res=0x3 s={true 0xb400006dc4e88800} ch=true seqId=0
+08-18 20:23:19.445  2053  2053 I ViewRootImpl@d597243[Toast]: performConfigurationChange setNightDimText nightDimLevel=0
+08-18 20:23:19.446  2053  2053 D ViewRootImpl@d597243[Toast]: mThreadedRenderer.initialize() mSurface={isValid=true 0xb400006dc4e88800} hwInitialized=true
+08-18 20:23:19.447  2053  2053 D ViewRootImpl@d597243[Toast]: reportNextDraw android.view.ViewRootImpl.performTraversals:4718 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 android.view.Choreographer$CallbackRecord.run:1689 android.view.Choreographer$CallbackRecord.run:1698 
+08-18 20:23:19.447  2053  2053 I ViewRootImpl@d597243[Toast]: Setup new sync=wmsSync-ViewRootImpl@d597243[Toast]#75
+08-18 20:23:19.447  2053  2053 I ViewRootImpl@d597243[Toast]: Creating new active sync group ViewRootImpl@d597243[Toast]#76
+08-18 20:23:19.448  2053  2053 I ViewRootImpl@d597243[Toast]: registerCallbacksForSync syncBuffer=false
+08-18 20:23:19.450  2053  2806 I ViewRootImpl@d597243[Toast]: Received frameDrawingCallback syncResult=0 frameNum=1.
+08-18 20:23:19.451  2053  2806 I ViewRootImpl@d597243[Toast]: mWNT: t=0xb400006dc4a9ea80 mBlastBufferQueue=0xb400006dc4bc2f80 fn= 1 mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$8.onFrameDraw:13841 android.view.ThreadedRenderer$1.onFrameDraw:792 <bottom of call stack> 
+08-18 20:23:19.451  2053  2806 I ViewRootImpl@d597243[Toast]: Setting up sync and frameCommitCallback
+08-18 20:23:19.456  2053  2217 D BLASTBufferQueue: [ViewRootImpl@d597243[Toast]#2235](f:0,a:0) onFrameAvailable the first frame is available
+08-18 20:23:19.456  2053  2217 D BLASTBufferQueue: [ViewRootImpl@d597243[Toast]#2235](f:0,a:1) acquireNextBufferLocked size=822x116 mFrameNumber=1 applyTransaction=true mTimestamp=316880442305271(auto) mPendingTransactions.size=0 graphicBufferId=8817567885338 transform=0
+08-18 20:23:19.458  2053  2217 I ViewRootImpl@d597243[Toast]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+08-18 20:23:19.460  2053  2053 I ViewRootImpl@d597243[Toast]: reportDrawFinished seqId=0
+08-18 20:23:19.461  1519  2934 D WindowManager: finishDrawingWindow: Window{5d94bb5 u0 Toast} mDrawState=DRAW_PENDING seqId=0
+08-18 20:23:19.462  1519  1548 I WindowManager: Reparenting to leash, surface=Surface(name=5d94bb5 Toast)/@0x4a09ad8, leashParent=Surface(name=WindowToken{8947265 type=2005 android.os.Binder@5087f5c})/@0x29fee31
+08-18 20:23:19.463   950  1328 E BufferQueueDebug: [Surface(name=5d94bb5 Toast)/@0x4a09ad8 - animation-leash of window_animation#40811](this:0xb4000074aa541ba0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Surface(name=5d94bb5 Toast)/@0x4a09ad8 - animation-leash of window_animation#40811'
+08-18 20:23:19.463   950  1328 I BufferQueueDebug: [Surface(name=5d94bb5 Toast)/@0x4a09ad8 - animation-leash of window_animation#40811](this:0xb4000074aa541ba0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(950:/system/bin/surfaceflinger)
+08-18 20:23:19.463   950  1328 I SurfaceFlinger: id=40811 createSurf, flag=24004, Surface(name=5d94bb5 Toast)/@0x4a09ad8 - animation-leash of window_animation#40811
+08-18 20:23:19.464  1519  1548 D WindowManager: makeSurface duration=1 leash=Surface(name=Surface(name=5d94bb5 Toast)/@0x4a09ad8 - animation-leash of window_animation)/@0x3918916
+08-18 20:23:19.465  1519  1548 V WindowManager: performShowLocked: mDrawState=HAS_DRAWN in Window{5d94bb5 u0 Toast}
+08-18 20:23:19.511   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074aa938000 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2340.0 |    0    0 1080 2340 | com.sdrradio.app/com.sdrradio.app.MainActivity$_17587#40772
+08-18 20:23:19.511   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074ce4e3600 | 0100 | RGBA_8888    |    0.0    0.0  822.0  116.0 |  129 2017  951 2133 | Toast$_2053#40804
+08-18 20:23:19.511   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074ab26c500 | 0100 | RGBA_8888    |    0.0    0.0  822.0  116.0 |  129 2017  951 2133 | Toast$_2053#40810
+08-18 20:23:19.676 16299 16475 I [-0300]oneconnect[1.8.34.21_01][CORE]: DataConvert.parseBleVd - deviceBle : |name:|deviceType:TV|discoverType:_BLE|services:None|connected:false[TvStatusString]POWER_OFF[TvStatus]-128[TvService]102[TvMirrorChannel]1[TvRegisteredDB][-40, -1, -56, -119, 87, 0][TvYear]2016[TvOcfInfo]0[TvAcmStatus]0[ExTvStatus]0[ExtendedStatus]-1[ModuloSn]-1
+08-18 20:23:19.921  1519  1548 I WindowManager: Reparenting to original parent: Surface(name=WindowToken{8b634a9 type=2005 android.os.Binder@ad29030})/@0x698778c, destroy=true, surface=Surface(name=858c563 Toast)/@0x88854bf
+08-18 20:23:19.938  1519  1548 I WindowManager: Destroying surface Surface(name=Toast$_2053)/@0x6ed16f2 called by com.android.server.wm.WindowStateAnimator.destroySurface:799 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:472 com.android.server.wm.WindowState.removeImmediately:2937 com.android.server.wm.WindowState.handleCompleteDeferredRemoval:5780 com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval:1476 com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval:1476 com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval:1476 com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval:1476 
+08-18 20:23:19.947   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074aa938000 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2340.0 |    0    0 1080 2340 | com.sdrradio.app/com.sdrradio.app.MainActivity$_17587#40772
+08-18 20:23:19.947   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074ab26c500 | 0100 | RGBA_8888    |    0.0    0.0  822.0  116.0 |  129 2017  951 2133 | Toast$_2053#40810
+08-18 20:23:19.954   950   950 I Layer   : id=40803 removeFromCurrentState 858c563 Toast#40803 (227)
+08-18 20:23:19.954   950   950 I Layer   : id=40804 removeFromCurrentState Toast$_2053#40804 (227)
+08-18 20:23:19.954   950   950 I Layer   : id=40808 removeFromCurrentState Surface(name=858c563 Toast)/@0x88854bf - animation-leash of window_animation#40808 (227)
+08-18 20:23:19.954   950   950 I Layer   : Layer [Toast$_2053#40804] hidden!! flag(1)
+08-18 20:23:19.954   950   950 I Layer   : id=40804 removeFromCurrentState Toast$_2053#40804 (227)
+08-18 20:23:19.955   950   950 I SurfaceFlinger: id=40804 Removed Toast$_2053#40804 (227)
+08-18 20:23:19.955   950   950 I SurfaceFlinger: id=40808 Removed Surface(name=858c563 Toast)/@0x88854bf - animation-leash of window_animation#40808 (227)
+08-18 20:23:19.955   950   950 I SurfaceFlinger: id=40803 Removed 858c563 Toast#40803 (227)
+08-18 20:23:19.971   950   950 I BufferQueueDebug: [Surface(name=858c563 Toast)/@0x88854bf - animation-leash of window_animation#40808](this:0xb4000074aa4caba0,id:-1,api:0,p:-1,c:950) onDestructor()
+08-18 20:23:19.971  1519  1548 I WindowManager: Reparenting to original parent: Surface(name=WindowToken{8947265 type=2005 android.os.Binder@5087f5c})/@0x29fee31, destroy=true, surface=Surface(name=5d94bb5 Toast)/@0x4a09ad8
+08-18 20:23:19.972   950   950 I Layer   : id=40808 Destroyed Surface(name=858c563 Toast)/@0x88854bf - animation-leash of window_animation#40808
+08-18 20:23:19.972   950   950 I BufferQueueDebug: [858c563 Toast#40803](this:0xb4000074aa690ba0,id:-1,api:0,p:-1,c:950) onDestructor()
+08-18 20:23:19.972   950   950 I Layer   : id=40803 Destroyed 858c563 Toast#40803
+08-18 20:23:19.972   950   950 I BufferQueueDebug: [Toast$_2053#40804](this:0xb4000074aa693ba0,id:-1,api:0,p:-1,c:950) onDestructor()
+08-18 20:23:19.972   950   950 I Layer   : id=40804 Destroyed Toast$_2053#40804
+08-18 20:23:19.987   950   950 I Layer   : id=40811 removeFromCurrentState Surface(name=5d94bb5 Toast)/@0x4a09ad8 - animation-leash of window_animation#40811 (224)
+08-18 20:23:19.989   950   950 I SurfaceFlinger: id=40811 Removed Surface(name=5d94bb5 Toast)/@0x4a09ad8 - animation-leash of window_animation#40811 (224)
+08-18 20:23:20.004   950   950 I BufferQueueDebug: [Surface(name=5d94bb5 Toast)/@0x4a09ad8 - animation-leash of window_animation#40811](this:0xb4000074aa541ba0,id:-1,api:0,p:-1,c:950) onDestructor()
+08-18 20:23:20.004   950   950 I Layer   : id=40811 Destroyed Surface(name=5d94bb5 Toast)/@0x4a09ad8 - animation-leash of window_animation#40811
+08-18 20:23:20.276 12772 17162 W FusedLocation: mock location injection by 10406/com.just4funtools.fakegpslocationprofessional failed (not in mock mode) [CONTEXT service_id=6 ]
+08-18 20:23:20.839   885  1118 I hwcomposer: [DRMDEV] (0) failed to waitNextVsync: -1  
+08-18 20:23:20.854   885  1118 I hwcomposer: [DRMDEV] (0) failed to waitNextVsync: -1  
+08-18 20:23:20.870   885  1118 I hwcomposer: [DRMDEV] (0) failed to waitNextVsync: -1  
+08-18 20:23:20.887   885  1118 I hwcomposer: [DRMDEV] (0) failed to waitNextVsync: -1  
+08-18 20:23:20.905   885  1118 I hwcomposer: [DRMDEV] (0) failed to waitNextVsync: -1  
+08-18 20:23:20.920   885  1118 I hwcomposer: [DRMDEV] (0) failed to waitNextVsync: -1  
+08-18 20:23:20.937   885  1118 I hwcomposer: [DRMDEV] (0) failed to waitNextVsync: -1  
+08-18 20:23:21.534 16299 16475 I [-0300]oneconnect[1.8.34.21_01][CORE]: DataConvert.parseBleVd - deviceBle : |name:|deviceType:TV|discoverType:_BLE|services:None|connected:false[TvStatusString]POWER_OFF[TvStatus]-128[TvService]102[TvMirrorChannel]1[TvRegisteredDB][-40, -1, -56, -119, 87, 0][TvYear]2016[TvOcfInfo]0[TvAcmStatus]0[ExTvStatus]0[ExtendedStatus]-1[ModuloSn]-1
+08-18 20:23:21.970  2053  2053 I WindowManager: WindowManagerGlobal#removeView, ty=2005, view=android.widget.LinearLayout{9103bf2 V.E...... ........ 0,0-822,116}, caller=android.view.WindowManagerGlobal.removeView:628 android.view.WindowManagerImpl.removeViewImmediate:208 android.widget.ToastPresenter.hide:358 
+08-18 20:23:21.971  1519  2934 D CoreBackPreview: Window{5d94bb5 u0 Toast}: Setting back callback null
+08-18 20:23:21.971   885  1118 I hwcomposer: [DRMDEV] (0) failed to waitNextVsync: -1  
+08-18 20:23:21.973  2053  2053 I ViewRootImpl@d597243[Toast]: dispatchDetachedFromWindow
+08-18 20:23:21.973  2053  2053 D BLASTBufferQueue: [ViewRootImpl@d597243[Toast]#2235](f:0,a:1) destructor()
+08-18 20:23:21.974  2053  2053 D BufferQueueConsumer: [ViewRootImpl@d597243[Toast]#2235(BLAST Consumer)2235](id:805000008c0,api:0,p:-1,c:2053) disconnect
+08-18 20:23:21.974  1519  2934 W InputManager-JNI: Input channel object '5d94bb5 Toast (client)' was disposed without first being removed with the input manager!
+08-18 20:23:21.975  1519  2934 V WindowManager: Remove Window{5d94bb5 u0 Toast}: mSurfaceController=Surface(name=Toast$_2053)/@0xb48a4ee mAnimatingExit=false mRemoveOnExit=false mHasSurface=true surfaceShowing=true animating=false app-animation=false mDisplayFrozen=false callers=com.android.server.wm.WindowManagerService.removeWindow:2148 com.android.server.wm.Session.remove:257 android.view.IWindowSession$Stub.onTransact:747 com.android.server.wm.Session.onTransact:204 android.os.Binder.execTransactInternal:1380 android.os.Binder.execTransact:1311 
+08-18 20:23:21.975  1519  2934 I WindowManager: Reparenting to leash, surface=Surface(name=5d94bb5 Toast)/@0x4a09ad8, leashParent=Surface(name=WindowToken{8947265 type=2005 android.os.Binder@5087f5c})/@0x29fee31
+08-18 20:23:21.976   950  1328 E BufferQueueDebug: [Surface(name=5d94bb5 Toast)/@0x4a09ad8 - animation-leash of window_animation#40812](this:0xb4000074aa54fba0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Surface(name=5d94bb5 Toast)/@0x4a09ad8 - animation-leash of window_animation#40812'
+08-18 20:23:21.976   950  1328 I BufferQueueDebug: [Surface(name=5d94bb5 Toast)/@0x4a09ad8 - animation-leash of window_animation#40812](this:0xb4000074aa54fba0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(950:/system/bin/surfaceflinger)
+08-18 20:23:21.977   950  1328 I SurfaceFlinger: id=40812 createSurf, flag=24000, Surface(name=5d94bb5 Toast)/@0x4a09ad8 - animation-leash of window_animation#40812
+08-18 20:23:21.978  1519  2934 D WindowManager: makeSurface duration=3 leash=Surface(name=Surface(name=5d94bb5 Toast)/@0x4a09ad8 - animation-leash of window_animation)/@0xe42ed8f
+08-18 20:23:21.978  1519  2934 V WindowManager: removeIfPossible 2, Window{5d94bb5 u0 Toast}: mAnimatingExit=true caller=com.android.server.wm.WindowManagerService.removeWindow:2148 com.android.server.wm.Session.remove:257 android.view.IWindowSession$Stub.onTransact:747 com.android.server.wm.Session.onTransact:204 android.os.Binder.execTransactInternal:1380 
+08-18 20:23:21.982  1519  2934 W NotificationService: Toast already killed. pkg=com.sdrradio.app token=android.os.BinderProxy@27ae81c
+08-18 20:23:21.987   885  1118 I hwcomposer: [DRMDEV] (0) failed to waitNextVsync: -1  
+08-18 20:23:21.998  2053  2053 V ToastPresenter: yOffset = 168
+08-18 20:23:21.998  2053  2053 V ToastPresenter: Text: Oenh in android.widget.ToastPresenter@80e7708
+08-18 20:23:21.998  2053  2053 I WindowManager: WindowManagerGlobal#addView, ty=2005, view=android.widget.LinearLayout{e9d4ea1 V.E...... ......I. 0,0-0,0}, caller=android.view.WindowManagerImpl.addView:150 android.widget.ToastPresenter.addToastView:414 android.widget.ToastPresenter.show:335 
+08-18 20:23:22.004   950  1332 E BufferQueueDebug: [25c6a08 Toast#40813](this:0xb4000074aa644ba0,id:-1,api:0,p:-1,c:-1) id info cannot be read from '25c6a08 Toast#40813'
+08-18 20:23:22.004   950  1332 I BufferQueueDebug: [25c6a08 Toast#40813](this:0xb4000074aa644ba0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(950:/system/bin/surfaceflinger)
+08-18 20:23:22.005   950  1332 I SurfaceFlinger: id=40813 createSurf, flag=84004, 25c6a08 Toast#40813
+08-18 20:23:22.010  2053  2053 I InsetsController: onStateChanged: host=Toast, from=android.view.ViewRootImpl.setView:1753, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 80 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(472, 0 - 608, 80), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 H -24.177777778 V 28.4444444444 H 24.177777778 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=0, center=Point(0, 0)}, RoundedCorner{position=TopRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomLeft, radius=0, center=Point(0, 0)}]}  mRoundedCornerFrame=Rect(0, 0 - 0, 0), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(964, 0 - 1080, 80) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {e3260001 mType=navigationBars mFrame=[0,2301][1080,2340] mVisible=true mFlags=[SUPPRESS_SCRIM]}, InsetsSource: {e3260004 mType=systemGestures mFrame=[0,0][78,2340] mVisible=true mFlags=[]}, InsetsSource: {e3260005 mType=mandatorySystemGestures mFrame=[0,2256][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {e3260006 mType=tappableElement mFrame=[0,0][0,0] mVisible=true mFlags=[]}, InsetsSource: {e3260024 mType=systemGestures mFrame=[1002,0][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags=[]}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,80] mVisible=true mFlags=[]}, InsetsSource: {737f0000 mType=statusBars mFrame=[0,0][1080,80] mVisible=true mFlags=[]}, InsetsSource: {737f0005 mType=mandatorySystemGestures mFrame=[0,0][1080,112] mVisible=true mFlags=[]}, InsetsSource: {737f0006 mType=tappableElement mFrame=[0,0][1080,80] mVisible=true mFlags=[]} }
+08-18 20:23:22.010  2053  2053 I ViewRootImpl@875b8c6[Toast]: synced displayState. AttachInfo displayState=2
+08-18 20:23:22.010  2053  2053 I ViewRootImpl@875b8c6[Toast]: setView = android.widget.LinearLayout@e9d4ea1 TM=true
+08-18 20:23:22.012  1519  2225 V WindowManager: Relayout Window{25c6a08 u0 Toast}: viewVisibility=0 req=822x116 ty=2005 d0
+08-18 20:23:22.013   950  1328 E BufferQueueDebug: [Toast$_2053#40814](this:0xb4000074aa564ba0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Toast$_2053#40814'
+08-18 20:23:22.014   950  1328 I BufferQueueDebug: [Toast$_2053#40814](this:0xb4000074aa564ba0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(950:/system/bin/surfaceflinger)
+08-18 20:23:22.014   950  1328 I SurfaceFlinger: id=40814 createSurf, flag=44004, Toast$_2053#40814
+08-18 20:23:22.015  1519  2225 D WindowManager: makeSurface duration=2 name=Toast$_2053
+08-18 20:23:22.018  1519  4466 D CoreBackPreview: Window{25c6a08 u0 Toast}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@620ff87, mPriority=0, mIsAnimationCallback=false}
+08-18 20:23:22.021  2053  2053 D BufferQueueConsumer: [](id:805000008c1,api:0,p:-1,c:2053) connect: controlledByApp=false
+08-18 20:23:22.022  2053  2053 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= ViewRootImpl@875b8c6[Toast] mNativeObject= 0xb400006dc4bc2f80 sc.mNativeObject= 0xb400006df093c000 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3028 android.view.ViewRootImpl.relayoutWindow:10131 android.view.ViewRootImpl.performTraversals:4110 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 android.view.Choreographer$CallbackRecord.run:1689 android.view.Choreographer$CallbackRecord.run:1698 android.view.Choreographer.doCallbacks:1153 android.view.Choreographer.doFrame:1079 android.view.Choreographer$FrameDisplayEventReceiver.run:1646 
+08-18 20:23:22.022  2053  2053 I BLASTBufferQueue_Java: update, w= 822 h= 116 mName = ViewRootImpl@875b8c6[Toast] mNativeObject= 0xb400006dc4bc2f80 sc.mNativeObject= 0xb400006df093c000 format= -3 caller= android.graphics.BLASTBufferQueue.<init>:89 android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3028 android.view.ViewRootImpl.relayoutWindow:10131 android.view.ViewRootImpl.performTraversals:4110 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 
+08-18 20:23:22.022  2053  2053 I ViewRootImpl@875b8c6[Toast]: Relayout returned: old=(0,80,1080,2301) new=(129,2017,951,2133) relayoutAsync=false req=(822,116)0 dur=9 res=0x3 s={true 0xb400006dc4e88800} ch=true seqId=0
+08-18 20:23:22.023  2053  2053 I ViewRootImpl@875b8c6[Toast]: performConfigurationChange setNightDimText nightDimLevel=0
+08-18 20:23:22.024  2053  2053 D ViewRootImpl@875b8c6[Toast]: mThreadedRenderer.initialize() mSurface={isValid=true 0xb400006dc4e88800} hwInitialized=true
+08-18 20:23:22.025  2053  2053 D ViewRootImpl@875b8c6[Toast]: reportNextDraw android.view.ViewRootImpl.performTraversals:4718 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 android.view.Choreographer$CallbackRecord.run:1689 android.view.Choreographer$CallbackRecord.run:1698 
+08-18 20:23:22.026  2053  2053 I ViewRootImpl@875b8c6[Toast]: Setup new sync=wmsSync-ViewRootImpl@875b8c6[Toast]#77
+08-18 20:23:22.026  2053  2053 I ViewRootImpl@875b8c6[Toast]: Creating new active sync group ViewRootImpl@875b8c6[Toast]#78
+08-18 20:23:22.027  2053  2053 I ViewRootImpl@875b8c6[Toast]: registerCallbacksForSync syncBuffer=false
+08-18 20:23:22.030  2053  2807 I ViewRootImpl@875b8c6[Toast]: Received frameDrawingCallback syncResult=0 frameNum=1.
+08-18 20:23:22.030  2053  2807 I ViewRootImpl@875b8c6[Toast]: mWNT: t=0xb400006dc4aa0a00 mBlastBufferQueue=0xb400006dc4bc2f80 fn= 1 mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$8.onFrameDraw:13841 android.view.ThreadedRenderer$1.onFrameDraw:792 <bottom of call stack> 
+08-18 20:23:22.030  2053  2807 I ViewRootImpl@875b8c6[Toast]: Setting up sync and frameCommitCallback
+08-18 20:23:22.036  2053  2217 D BLASTBufferQueue: [ViewRootImpl@875b8c6[Toast]#2236](f:0,a:0) onFrameAvailable the first frame is available
+08-18 20:23:22.036  2053  2217 D BLASTBufferQueue: [ViewRootImpl@875b8c6[Toast]#2236](f:0,a:1) acquireNextBufferLocked size=822x116 mFrameNumber=1 applyTransaction=true mTimestamp=316883022347425(auto) mPendingTransactions.size=0 graphicBufferId=8817567885342 transform=0
+08-18 20:23:22.037  2053  2217 I ViewRootImpl@875b8c6[Toast]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+08-18 20:23:22.039  2053  2053 I ViewRootImpl@875b8c6[Toast]: reportDrawFinished seqId=0
+08-18 20:23:22.041  1519  2225 D WindowManager: finishDrawingWindow: Window{25c6a08 u0 Toast} mDrawState=DRAW_PENDING seqId=0
+08-18 20:23:22.042  1519  1548 I WindowManager: Reparenting to leash, surface=Surface(name=25c6a08 Toast)/@0x3521eb4, leashParent=Surface(name=WindowToken{4aa7351 type=2005 android.os.Binder@f1b8078})/@0x28a1add
+08-18 20:23:22.043   950  1008 E BufferQueueDebug: [Surface(name=25c6a08 Toast)/@0x3521eb4 - animation-leash of window_animation#40815](this:0xb4000074b0012ba0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Surface(name=25c6a08 Toast)/@0x3521eb4 - animation-leash of window_animation#40815'
+08-18 20:23:22.044   950  1008 I BufferQueueDebug: [Surface(name=25c6a08 Toast)/@0x3521eb4 - animation-leash of window_animation#40815](this:0xb4000074b0012ba0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(950:/system/bin/surfaceflinger)
+08-18 20:23:22.044   950  1008 I SurfaceFlinger: id=40815 createSurf, flag=24004, Surface(name=25c6a08 Toast)/@0x3521eb4 - animation-leash of window_animation#40815
+08-18 20:23:22.045  1519  1548 D WindowManager: makeSurface duration=2 leash=Surface(name=Surface(name=25c6a08 Toast)/@0x3521eb4 - animation-leash of window_animation)/@0xceaf652
+08-18 20:23:22.045  1519  1548 V WindowManager: performShowLocked: mDrawState=HAS_DRAWN in Window{25c6a08 u0 Toast}
+08-18 20:23:22.051   950   950 I Layer   : Layer [Toast$_2053#40814] hidden!! flag(0)
+08-18 20:23:22.091   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074aa938000 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2340.0 |    0    0 1080 2340 | com.sdrradio.app/com.sdrradio.app.MainActivity$_17587#40772
+08-18 20:23:22.091   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074ab26c500 | 0100 | RGBA_8888    |    0.0    0.0  822.0  116.0 |  129 2017  951 2133 | Toast$_2053#40810
+08-18 20:23:22.091   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074afdd77c0 | 0100 | RGBA_8888    |    0.0    0.0  822.0  116.0 |  129 2017  951 2133 | Toast$_2053#40814
+08-18 20:23:22.501  1519  1548 I WindowManager: Reparenting to original parent: Surface(name=WindowToken{8947265 type=2005 android.os.Binder@5087f5c})/@0x29fee31, destroy=true, surface=Surface(name=5d94bb5 Toast)/@0x4a09ad8
+08-18 20:23:22.519  1519  1548 I WindowManager: Destroying surface Surface(name=Toast$_2053)/@0xb48a4ee called by com.android.server.wm.WindowStateAnimator.destroySurface:799 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:472 com.android.server.wm.WindowState.removeImmediately:2937 com.android.server.wm.WindowState.handleCompleteDeferredRemoval:5780 com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval:1476 com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval:1476 com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval:1476 com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval:1476 
+08-18 20:23:22.530   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074aa938000 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2340.0 |    0    0 1080 2340 | com.sdrradio.app/com.sdrradio.app.MainActivity$_17587#40772
+08-18 20:23:22.530   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074afdd77c0 | 0100 | RGBA_8888    |    0.0    0.0  822.0  116.0 |  129 2017  951 2133 | Toast$_2053#40814
+08-18 20:23:22.534   950   950 I Layer   : id=40809 removeFromCurrentState 5d94bb5 Toast#40809 (227)
+08-18 20:23:22.534   950   950 I Layer   : id=40810 removeFromCurrentState Toast$_2053#40810 (227)
+08-18 20:23:22.534   950   950 I Layer   : id=40812 removeFromCurrentState Surface(name=5d94bb5 Toast)/@0x4a09ad8 - animation-leash of window_animation#40812 (227)
+08-18 20:23:22.534   950   950 I Layer   : Layer [Toast$_2053#40810] hidden!! flag(1)
+08-18 20:23:22.534   950   950 I Layer   : id=40810 removeFromCurrentState Toast$_2053#40810 (227)
+08-18 20:23:22.536   950   950 I SurfaceFlinger: id=40810 Removed Toast$_2053#40810 (227)
+08-18 20:23:22.536   950   950 I SurfaceFlinger: id=40812 Removed Surface(name=5d94bb5 Toast)/@0x4a09ad8 - animation-leash of window_animation#40812 (227)
+08-18 20:23:22.536   950   950 I SurfaceFlinger: id=40809 Removed 5d94bb5 Toast#40809 (227)
+08-18 20:23:22.551   950   950 I BufferQueueDebug: [5d94bb5 Toast#40809](this:0xb4000074aa4e4ba0,id:-1,api:0,p:-1,c:950) onDestructor()
+08-18 20:23:22.551  1519  1548 I WindowManager: Reparenting to original parent: Surface(name=WindowToken{4aa7351 type=2005 android.os.Binder@f1b8078})/@0x28a1add, destroy=true, surface=Surface(name=25c6a08 Toast)/@0x3521eb4
+08-18 20:23:22.551   950   950 I Layer   : id=40809 Destroyed 5d94bb5 Toast#40809
+08-18 20:23:22.551   950   950 I BufferQueueDebug: [Toast$_2053#40810](this:0xb4000074aa513ba0,id:-1,api:0,p:-1,c:950) onDestructor()
+08-18 20:23:22.551   950   950 I Layer   : id=40810 Destroyed Toast$_2053#40810
+08-18 20:23:22.552   950   950 I BufferQueueDebug: [Surface(name=5d94bb5 Toast)/@0x4a09ad8 - animation-leash of window_animation#40812](this:0xb4000074aa54fba0,id:-1,api:0,p:-1,c:950) onDestructor()
+08-18 20:23:22.552   950   950 I Layer   : id=40812 Destroyed Surface(name=5d94bb5 Toast)/@0x4a09ad8 - animation-leash of window_animation#40812
+08-18 20:23:22.568   950   950 I Layer   : id=40815 removeFromCurrentState Surface(name=25c6a08 Toast)/@0x3521eb4 - animation-leash of window_animation#40815 (224)
+08-18 20:23:22.572   950   950 I SurfaceFlinger: id=40815 Removed Surface(name=25c6a08 Toast)/@0x3521eb4 - animation-leash of window_animation#40815 (224)
+08-18 20:23:22.584   950   950 I BufferQueueDebug: [Surface(name=25c6a08 Toast)/@0x3521eb4 - animation-leash of window_animation#40815](this:0xb4000074b0012ba0,id:-1,api:0,p:-1,c:950) onDestructor()
+08-18 20:23:22.584   950   950 I Layer   : id=40815 Destroyed Surface(name=25c6a08 Toast)/@0x3521eb4 - animation-leash of window_animation#40815
+08-18 20:23:23.187 12772 17162 W FusedLocation: mock location injection by 10406/com.just4funtools.fakegpslocationprofessional failed (not in mock mode) [CONTEXT service_id=6 ]
+08-18 20:23:23.414 16299 16475 I [-0300]oneconnect[1.8.34.21_01][CORE]: DataConvert.parseBleVd - deviceBle : |name:|deviceType:TV|discoverType:_BLE|services:None|connected:false[TvStatusString]POWER_OFF[TvStatus]-128[TvService]102[TvMirrorChannel]1[TvRegisteredDB][-40, -1, -56, -119, 87, 0][TvYear]2016[TvOcfInfo]0[TvAcmStatus]0[ExTvStatus]0[ExtendedStatus]-1[ModuloSn]-1
+08-18 20:23:23.433   885  1118 I hwcomposer: [DRMDEV] (0) failed to waitNextVsync: -1  
+08-18 20:23:23.437   885  1118 I hwcomposer: [DRMDEV] (0) failed to waitNextVsync: -1  
+08-18 20:23:23.454   885  1118 I hwcomposer: [DRMDEV] (0) failed to waitNextVsync: -1  
+08-18 20:23:23.470   885  1118 I hwcomposer: [DRMDEV] (0) failed to waitNextVsync: -1  
+08-18 20:23:23.487   885  1118 I hwcomposer: [DRMDEV] (0) failed to waitNextVsync: -1  
+08-18 20:23:23.503   885  1118 I hwcomposer: [DRMDEV] (0) failed to waitNextVsync: -1  
+08-18 20:23:23.520   885  1118 I hwcomposer: [DRMDEV] (0) failed to waitNextVsync: -1  
+08-18 20:23:23.707 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 0
+08-18 20:23:23.813 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 1
+08-18 20:23:23.824 17587 17587 D MainActivity: Tentando conectar dispositivo...
+08-18 20:23:23.824 17587 17587 E MainActivity: Nenhum dispositivo RTL-SDR encontrado
+08-18 20:23:23.830 17587 17587 I Toast   : show: caller = com.sdrradio.app.MainActivity.connectDevice:297 
+08-18 20:23:23.831 17587 17587 I Toast   : show: contextDispId = 0 mCustomDisplayId = -1 focusedDisplayId = 0 isActivityContext = true
+08-18 20:23:23.833  1519  4466 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1281 com.android.server.notification.sec.DisplayToast.sendIntentForToastDumpLog:156 com.android.server.notification.sec.DisplayToast.outFile:106 com.android.server.notification.sec.DisplayToast.out:62 com.android.server.notification.NotificationManagerService$15.enqueueToastForDex:5125 
+08-18 20:23:23.837   950   950 I BufferQueueProducer: [com.sdrradio.app/com.sdrradio.app.MainActivity$_17587#40772](this:0xb4000074aa569ba0,id:-1,api:0,p:-1,c:950) queueBuffer: fps=4.37 dur=5498.26 max=5115.42 min=16.19
+08-18 20:23:24.038  3996  5417 I SDHMS:C : SIOP:: AP:398 BAT:353 USB:353 CHG:402 PA:397 WIFI:394 BLK:0 SUBBAT:0 SKIN:371 SKINF:363 SKINB:371 LRP:371 LRP2:371 LRF2:363 LRB2:371 AP2:371 CHG2:358 MEM2:371 WIFI2:371 SPK2:339 VAP05:405 
+08-18 20:23:24.278 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 0
+08-18 20:23:24.374 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 1
+08-18 20:23:24.384 17587 17587 D MainActivity: Tentando conectar dispositivo...
+08-18 20:23:24.384 17587 17587 E MainActivity: Nenhum dispositivo RTL-SDR encontrado
+08-18 20:23:24.391 17587 17587 I Toast   : show: caller = com.sdrradio.app.MainActivity.connectDevice:297 
+08-18 20:23:24.392 17587 17587 I Toast   : show: contextDispId = 0 mCustomDisplayId = -1 focusedDisplayId = 0 isActivityContext = true
+08-18 20:23:24.396  1519  2225 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1281 com.android.server.notification.sec.DisplayToast.sendIntentForToastDumpLog:156 com.android.server.notification.sec.DisplayToast.outFile:106 com.android.server.notification.sec.DisplayToast.out:62 com.android.server.notification.NotificationManagerService$15.enqueueToastForDex:5125 
+08-18 20:23:24.553  2053  2053 I WindowManager: WindowManagerGlobal#removeView, ty=2005, view=android.widget.LinearLayout{e9d4ea1 V.E...... ........ 0,0-822,116}, caller=android.view.WindowManagerGlobal.removeView:628 android.view.WindowManagerImpl.removeViewImmediate:208 android.widget.ToastPresenter.hide:358 
+08-18 20:23:24.554  1519  2225 D CoreBackPreview: Window{25c6a08 u0 Toast}: Setting back callback null
+08-18 20:23:24.557  2053  2053 I ViewRootImpl@875b8c6[Toast]: dispatchDetachedFromWindow
+08-18 20:23:24.557  2053  2053 D BLASTBufferQueue: [ViewRootImpl@875b8c6[Toast]#2236](f:0,a:1) destructor()
+08-18 20:23:24.558  2053  2053 D BufferQueueConsumer: [ViewRootImpl@875b8c6[Toast]#2236(BLAST Consumer)2236](id:805000008c1,api:0,p:-1,c:2053) disconnect
+08-18 20:23:24.559  1519  2225 W InputManager-JNI: Input channel object '25c6a08 Toast (client)' was disposed without first being removed with the input manager!
+08-18 20:23:24.560  1519  2225 V WindowManager: Remove Window{25c6a08 u0 Toast}: mSurfaceController=Surface(name=Toast$_2053)/@0xaec754d mAnimatingExit=false mRemoveOnExit=false mHasSurface=true surfaceShowing=true animating=false app-animation=false mDisplayFrozen=false callers=com.android.server.wm.WindowManagerService.removeWindow:2148 com.android.server.wm.Session.remove:257 android.view.IWindowSession$Stub.onTransact:747 com.android.server.wm.Session.onTransact:204 android.os.Binder.execTransactInternal:1380 android.os.Binder.execTransact:1311 
+08-18 20:23:24.560  1519  2225 I WindowManager: Reparenting to leash, surface=Surface(name=25c6a08 Toast)/@0x3521eb4, leashParent=Surface(name=WindowToken{4aa7351 type=2005 android.os.Binder@f1b8078})/@0x28a1add
+08-18 20:23:24.561   950  1008 E BufferQueueDebug: [Surface(name=25c6a08 Toast)/@0x3521eb4 - animation-leash of window_animation#40818](this:0xb4000074b001fba0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Surface(name=25c6a08 Toast)/@0x3521eb4 - animation-leash of window_animation#40818'
+08-18 20:23:24.561   950  1008 I BufferQueueDebug: [Surface(name=25c6a08 Toast)/@0x3521eb4 - animation-leash of window_animation#40818](this:0xb4000074b001fba0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(950:/system/bin/surfaceflinger)
+08-18 20:23:24.561   950  1008 I SurfaceFlinger: id=40818 createSurf, flag=24000, Surface(name=25c6a08 Toast)/@0x3521eb4 - animation-leash of window_animation#40818
+08-18 20:23:24.562  1519  2225 D WindowManager: makeSurface duration=2 leash=Surface(name=Surface(name=25c6a08 Toast)/@0x3521eb4 - animation-leash of window_animation)/@0x8f99802
+08-18 20:23:24.563  1519  2225 V WindowManager: removeIfPossible 2, Window{25c6a08 u0 Toast}: mAnimatingExit=true caller=com.android.server.wm.WindowManagerService.removeWindow:2148 com.android.server.wm.Session.remove:257 android.view.IWindowSession$Stub.onTransact:747 com.android.server.wm.Session.onTransact:204 android.os.Binder.execTransactInternal:1380 
+08-18 20:23:24.568  1519  4466 W NotificationService: Toast already killed. pkg=com.sdrradio.app token=android.os.BinderProxy@2228513
+08-18 20:23:24.584  2053  2053 V ToastPresenter: yOffset = 168
+08-18 20:23:24.584  2053  2053 V ToastPresenter: Text: Done in android.widget.ToastPresenter@160f06f
+08-18 20:23:24.584  2053  2053 I WindowManager: WindowManagerGlobal#addView, ty=2005, view=android.widget.LinearLayout{462617c V.E...... ......I. 0,0-0,0}, caller=android.view.WindowManagerImpl.addView:150 android.widget.ToastPresenter.addToastView:414 android.widget.ToastPresenter.show:335 
+08-18 20:23:24.590   950  1008 E BufferQueueDebug: [3265f6f Toast#40819](this:0xb4000074b0067ba0,id:-1,api:0,p:-1,c:-1) id info cannot be read from '3265f6f Toast#40819'
+08-18 20:23:24.590   950  1008 I BufferQueueDebug: [3265f6f Toast#40819](this:0xb4000074b0067ba0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(950:/system/bin/surfaceflinger)
+08-18 20:23:24.590   950  1008 I SurfaceFlinger: id=40819 createSurf, flag=84004, 3265f6f Toast#40819
+08-18 20:23:24.592  2053  2053 I InsetsController: onStateChanged: host=Toast, from=android.view.ViewRootImpl.setView:1753, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 80 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(472, 0 - 608, 80), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 H -24.177777778 V 28.4444444444 H 24.177777778 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=0, center=Point(0, 0)}, RoundedCorner{position=TopRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomLeft, radius=0, center=Point(0, 0)}]}  mRoundedCornerFrame=Rect(0, 0 - 0, 0), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(964, 0 - 1080, 80) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {e3260001 mType=navigationBars mFrame=[0,2301][1080,2340] mVisible=true mFlags=[SUPPRESS_SCRIM]}, InsetsSource: {e3260004 mType=systemGestures mFrame=[0,0][78,2340] mVisible=true mFlags=[]}, InsetsSource: {e3260005 mType=mandatorySystemGestures mFrame=[0,2256][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {e3260006 mType=tappableElement mFrame=[0,0][0,0] mVisible=true mFlags=[]}, InsetsSource: {e3260024 mType=systemGestures mFrame=[1002,0][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags=[]}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,80] mVisible=true mFlags=[]}, InsetsSource: {737f0000 mType=statusBars mFrame=[0,0][1080,80] mVisible=true mFlags=[]}, InsetsSource: {737f0005 mType=mandatorySystemGestures mFrame=[0,0][1080,112] mVisible=true mFlags=[]}, InsetsSource: {737f0006 mType=tappableElement mFrame=[0,0][1080,80] mVisible=true mFlags=[]} }
+08-18 20:23:24.592  2053  2053 I ViewRootImpl@97f7a05[Toast]: synced displayState. AttachInfo displayState=2
+08-18 20:23:24.592  2053  2053 I ViewRootImpl@97f7a05[Toast]: setView = android.widget.LinearLayout@462617c TM=true
+08-18 20:23:24.595  1519  4466 D CoreBackPreview: Window{3265f6f u0 Toast}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@6400105, mPriority=0, mIsAnimationCallback=false}
+08-18 20:23:24.595  1519  2225 V WindowManager: Relayout Window{3265f6f u0 Toast}: viewVisibility=0 req=682x116 ty=2005 d0
+08-18 20:23:24.596   950  1008 E BufferQueueDebug: [Toast$_2053#40820](this:0xb4000074afea0ba0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Toast$_2053#40820'
+08-18 20:23:24.597   950  1008 I BufferQueueDebug: [Toast$_2053#40820](this:0xb4000074afea0ba0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(950:/system/bin/surfaceflinger)
+08-18 20:23:24.598   950  1008 I SurfaceFlinger: id=40820 createSurf, flag=44004, Toast$_2053#40820
+08-18 20:23:24.599  1519  2225 D WindowManager: makeSurface duration=4 name=Toast$_2053
+08-18 20:23:24.600 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 0
+08-18 20:23:24.605  2053  2053 D BufferQueueConsumer: [](id:805000008c2,api:0,p:-1,c:2053) connect: controlledByApp=false
+08-18 20:23:24.605  2053  2053 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= ViewRootImpl@97f7a05[Toast] mNativeObject= 0xb400006dc4bc2f80 sc.mNativeObject= 0xb400006de9c22f00 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3028 android.view.ViewRootImpl.relayoutWindow:10131 android.view.ViewRootImpl.performTraversals:4110 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 android.view.Choreographer$CallbackRecord.run:1689 android.view.Choreographer$CallbackRecord.run:1698 android.view.Choreographer.doCallbacks:1153 android.view.Choreographer.doFrame:1079 android.view.Choreographer$FrameDisplayEventReceiver.run:1646 
+08-18 20:23:24.605  2053  2053 I BLASTBufferQueue_Java: update, w= 682 h= 116 mName = ViewRootImpl@97f7a05[Toast] mNativeObject= 0xb400006dc4bc2f80 sc.mNativeObject= 0xb400006de9c22f00 format= -3 caller= android.graphics.BLASTBufferQueue.<init>:89 android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3028 android.view.ViewRootImpl.relayoutWindow:10131 android.view.ViewRootImpl.performTraversals:4110 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 
+08-18 20:23:24.606  2053  2053 I ViewRootImpl@97f7a05[Toast]: Relayout returned: old=(0,80,1080,2301) new=(199,2017,881,2133) relayoutAsync=false req=(682,116)0 dur=11 res=0x3 s={true 0xb400006dc4e88800} ch=true seqId=0
+08-18 20:23:24.607  2053  2053 I ViewRootImpl@97f7a05[Toast]: performConfigurationChange setNightDimText nightDimLevel=0
+08-18 20:23:24.607  2053  2053 D ViewRootImpl@97f7a05[Toast]: mThreadedRenderer.initialize() mSurface={isValid=true 0xb400006dc4e88800} hwInitialized=true
+08-18 20:23:24.608  2053  2053 D ViewRootImpl@97f7a05[Toast]: reportNextDraw android.view.ViewRootImpl.performTraversals:4718 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 android.view.Choreographer$CallbackRecord.run:1689 android.view.Choreographer$CallbackRecord.run:1698 
+08-18 20:23:24.608  2053  2053 I ViewRootImpl@97f7a05[Toast]: Setup new sync=wmsSync-ViewRootImpl@97f7a05[Toast]#79
+08-18 20:23:24.608  2053  2053 I ViewRootImpl@97f7a05[Toast]: Creating new active sync group ViewRootImpl@97f7a05[Toast]#80
+08-18 20:23:24.608  2053  2053 I ViewRootImpl@97f7a05[Toast]: registerCallbacksForSync syncBuffer=false
+08-18 20:23:24.613  2053  2806 I ViewRootImpl@97f7a05[Toast]: Received frameDrawingCallback syncResult=0 frameNum=1.
+08-18 20:23:24.613  2053  2806 I ViewRootImpl@97f7a05[Toast]: mWNT: t=0xb400006dc4b1f380 mBlastBufferQueue=0xb400006dc4bc2f80 fn= 1 mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$8.onFrameDraw:13841 android.view.ThreadedRenderer$1.onFrameDraw:792 <bottom of call stack> 
+08-18 20:23:24.614  2053  2806 I ViewRootImpl@97f7a05[Toast]: Setting up sync and frameCommitCallback
+08-18 20:23:24.620  2053  2217 D BLASTBufferQueue: [ViewRootImpl@97f7a05[Toast]#2237](f:0,a:0) onFrameAvailable the first frame is available
+08-18 20:23:24.621  2053  2217 D BLASTBufferQueue: [ViewRootImpl@97f7a05[Toast]#2237](f:0,a:1) acquireNextBufferLocked size=682x116 mFrameNumber=1 applyTransaction=true mTimestamp=316885606977579(auto) mPendingTransactions.size=0 graphicBufferId=8817567885349 transform=0
+08-18 20:23:24.622  2053  2217 I ViewRootImpl@97f7a05[Toast]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+08-18 20:23:24.623  2053  2053 I ViewRootImpl@97f7a05[Toast]: reportDrawFinished seqId=0
+08-18 20:23:24.624  1519  2934 D WindowManager: finishDrawingWindow: Window{3265f6f u0 Toast} mDrawState=DRAW_PENDING seqId=0
+08-18 20:23:24.626  1519  1548 I WindowManager: Reparenting to leash, surface=Surface(name=3265f6f Toast)/@0x3e3838b, leashParent=Surface(name=WindowToken{50f0745 type=2005 android.os.Binder@deedbbc})/@0x2758c68
+08-18 20:23:24.626   950  1010 E BufferQueueDebug: [Surface(name=3265f6f Toast)/@0x3e3838b - animation-leash of window_animation#40821](this:0xb4000074aa5aaba0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Surface(name=3265f6f Toast)/@0x3e3838b - animation-leash of window_animation#40821'
+08-18 20:23:24.626   950  1010 I BufferQueueDebug: [Surface(name=3265f6f Toast)/@0x3e3838b - animation-leash of window_animation#40821](this:0xb4000074aa5aaba0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(950:/system/bin/surfaceflinger)
+08-18 20:23:24.626   950  1010 I SurfaceFlinger: id=40821 createSurf, flag=24004, Surface(name=3265f6f Toast)/@0x3e3838b - animation-leash of window_animation#40821
+08-18 20:23:24.627  1519  1548 D WindowManager: makeSurface duration=2 leash=Surface(name=Surface(name=3265f6f Toast)/@0x3e3838b - animation-leash of window_animation)/@0xd44a881
+08-18 20:23:24.628  1519  1548 V WindowManager: performShowLocked: mDrawState=HAS_DRAWN in Window{3265f6f u0 Toast}
+08-18 20:23:24.671   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074afea6a00 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2340.0 |    0    0 1080 2340 | com.sdrradio.app/com.sdrradio.app.MainActivity$_17587#40772
+08-18 20:23:24.671   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074afdd77c0 | 0100 | RGBA_8888    |    0.0    0.0  822.0  116.0 |  129 2017  951 2133 | Toast$_2053#40814
+08-18 20:23:24.671   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074ab26f980 | 0100 | RGBA_8888    |    0.0    0.0  682.0  116.0 |  199 2017  881 2133 | Toast$_2053#40820
+08-18 20:23:24.691 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 1
+08-18 20:23:24.701 17587 17587 D MainActivity: Tentando conectar dispositivo...
+08-18 20:23:24.701 17587 17587 E MainActivity: Nenhum dispositivo RTL-SDR encontrado
+08-18 20:23:24.709 17587 17587 I Toast   : show: caller = com.sdrradio.app.MainActivity.connectDevice:297 
+08-18 20:23:24.709 17587 17587 I Toast   : show: contextDispId = 0 mCustomDisplayId = -1 focusedDisplayId = 0 isActivityContext = true
+08-18 20:23:24.712  1519  2934 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1281 com.android.server.notification.sec.DisplayToast.sendIntentForToastDumpLog:156 com.android.server.notification.sec.DisplayToast.outFile:106 com.android.server.notification.sec.DisplayToast.out:62 com.android.server.notification.NotificationManagerService$15.enqueueToastForDex:5125 
+08-18 20:23:24.843 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 0
+08-18 20:23:24.847   950   950 I BufferQueueProducer: [com.sdrradio.app/com.sdrradio.app.MainActivity$_17587#40772](this:0xb4000074aa569ba0,id:-1,api:0,p:-1,c:950) queueBuffer: fps=50.51 dur=1009.75 max=166.13 min=16.21
+08-18 20:23:24.917 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 1
+08-18 20:23:24.936 17587 17587 D MainActivity: Tentando conectar dispositivo...
+08-18 20:23:24.936 17587 17587 E MainActivity: Nenhum dispositivo RTL-SDR encontrado
+08-18 20:23:24.942 17587 17587 I Toast   : show: caller = com.sdrradio.app.MainActivity.connectDevice:297 
+08-18 20:23:24.942 17587 17587 I Toast   : show: contextDispId = 0 mCustomDisplayId = -1 focusedDisplayId = 0 isActivityContext = true
+08-18 20:23:24.945  1519  2225 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1281 com.android.server.notification.sec.DisplayToast.sendIntentForToastDumpLog:156 com.android.server.notification.sec.DisplayToast.outFile:106 com.android.server.notification.sec.DisplayToast.out:62 com.android.server.notification.NotificationManagerService$15.enqueueToastForDex:5125 
+08-18 20:23:25.027 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 0
+08-18 20:23:25.081  1519  1548 I WindowManager: Reparenting to original parent: Surface(name=WindowToken{4aa7351 type=2005 android.os.Binder@f1b8078})/@0x28a1add, destroy=true, surface=Surface(name=25c6a08 Toast)/@0x3521eb4
+08-18 20:23:25.098  1519  1548 I WindowManager: Destroying surface Surface(name=Toast$_2053)/@0xaec754d called by com.android.server.wm.WindowStateAnimator.destroySurface:799 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:472 com.android.server.wm.WindowState.removeImmediately:2937 com.android.server.wm.WindowState.handleCompleteDeferredRemoval:5780 com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval:1476 com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval:1476 com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval:1476 com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval:1476 
+08-18 20:23:25.104   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074afdd6640 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2340.0 |    0    0 1080 2340 | com.sdrradio.app/com.sdrradio.app.MainActivity$_17587#40772
+08-18 20:23:25.104   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074ab26f980 | 0100 | RGBA_8888    |    0.0    0.0  682.0  116.0 |  199 2017  881 2133 | Toast$_2053#40820
+08-18 20:23:25.113   950   950 I Layer   : id=40813 removeFromCurrentState 25c6a08 Toast#40813 (231)
+08-18 20:23:25.113   950   950 I Layer   : id=40814 removeFromCurrentState Toast$_2053#40814 (231)
+08-18 20:23:25.114   950   950 I Layer   : id=40818 removeFromCurrentState Surface(name=25c6a08 Toast)/@0x3521eb4 - animation-leash of window_animation#40818 (231)
+08-18 20:23:25.114   950   950 I Layer   : Layer [Toast$_2053#40814] hidden!! flag(1)
+08-18 20:23:25.114   950   950 I Layer   : id=40814 removeFromCurrentState Toast$_2053#40814 (231)
+08-18 20:23:25.115   950   950 I SurfaceFlinger: id=40814 Removed Toast$_2053#40814 (231)
+08-18 20:23:25.115   950   950 I SurfaceFlinger: id=40818 Removed Surface(name=25c6a08 Toast)/@0x3521eb4 - animation-leash of window_animation#40818 (231)
+08-18 20:23:25.115   950   950 I SurfaceFlinger: id=40813 Removed 25c6a08 Toast#40813 (231)
+08-18 20:23:25.122 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 1
+08-18 20:23:25.130   950   950 I BufferQueueDebug: [Toast$_2053#40814](this:0xb4000074aa564ba0,id:-1,api:0,p:-1,c:950) onDestructor()
+08-18 20:23:25.130   950   950 I Layer   : id=40814 Destroyed Toast$_2053#40814
+08-18 20:23:25.130   950   950 I BufferQueueDebug: [25c6a08 Toast#40813](this:0xb4000074aa644ba0,id:-1,api:0,p:-1,c:950) onDestructor()
+08-18 20:23:25.130   950   950 I Layer   : id=40813 Destroyed 25c6a08 Toast#40813
+08-18 20:23:25.130   950   950 I BufferQueueDebug: [Surface(name=25c6a08 Toast)/@0x3521eb4 - animation-leash of window_animation#40818](this:0xb4000074b001fba0,id:-1,api:0,p:-1,c:950) onDestructor()
+08-18 20:23:25.130   950   950 I Layer   : id=40818 Destroyed Surface(name=25c6a08 Toast)/@0x3521eb4 - animation-leash of window_animation#40818
+08-18 20:23:25.136 17587 17587 D MainActivity: Tentando conectar dispositivo...
+08-18 20:23:25.136 17587 17587 E MainActivity: Nenhum dispositivo RTL-SDR encontrado
+08-18 20:23:25.142 17587 17587 I Toast   : show: caller = com.sdrradio.app.MainActivity.connectDevice:297 
+08-18 20:23:25.142 17587 17587 I Toast   : show: contextDispId = 0 mCustomDisplayId = -1 focusedDisplayId = 0 isActivityContext = true
+08-18 20:23:25.145  1519  2225 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1281 com.android.server.notification.sec.DisplayToast.sendIntentForToastDumpLog:156 com.android.server.notification.sec.DisplayToast.outFile:106 com.android.server.notification.sec.DisplayToast.out:62 com.android.server.notification.NotificationManagerService$15.enqueueToastForDex:5125 
+08-18 20:23:25.147  1519  1548 I WindowManager: Reparenting to original parent: Surface(name=WindowToken{50f0745 type=2005 android.os.Binder@deedbbc})/@0x2758c68, destroy=true, surface=Surface(name=3265f6f Toast)/@0x3e3838b
+08-18 20:23:25.164   950   950 I Layer   : id=40821 removeFromCurrentState Surface(name=3265f6f Toast)/@0x3e3838b - animation-leash of window_animation#40821 (228)
+08-18 20:23:25.165   950   950 I SurfaceFlinger: id=40821 Removed Surface(name=3265f6f Toast)/@0x3e3838b - animation-leash of window_animation#40821 (228)
+08-18 20:23:25.180   950   950 I BufferQueueDebug: [Surface(name=3265f6f Toast)/@0x3e3838b - animation-leash of window_animation#40821](this:0xb4000074aa5aaba0,id:-1,api:0,p:-1,c:950) onDestructor()
+08-18 20:23:25.181   950   950 I Layer   : id=40821 Destroyed Surface(name=3265f6f Toast)/@0x3e3838b - animation-leash of window_animation#40821
+08-18 20:23:25.190 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 0
+08-18 20:23:25.245 16299 16475 I [-0300]oneconnect[1.8.34.21_01][CORE]: DataConvert.parseBleVd - deviceBle : |name:|deviceType:TV|discoverType:_BLE|services:None|connected:false[TvStatusString]POWER_OFF[TvStatus]-128[TvService]102[TvMirrorChannel]1[TvRegisteredDB][-40, -1, -56, -119, 87, 0][TvYear]2016[TvOcfInfo]0[TvAcmStatus]0[ExTvStatus]0[ExtendedStatus]-1[ModuloSn]-1
+08-18 20:23:25.279 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 1
+08-18 20:23:25.285 17587 17587 D MainActivity: Tentando conectar dispositivo...
+08-18 20:23:25.285 17587 17587 E MainActivity: Nenhum dispositivo RTL-SDR encontrado
+08-18 20:23:25.290 17587 17587 I Toast   : show: caller = com.sdrradio.app.MainActivity.connectDevice:297 
+08-18 20:23:25.291 17587 17587 I Toast   : show: contextDispId = 0 mCustomDisplayId = -1 focusedDisplayId = 0 isActivityContext = true
+08-18 20:23:25.294  1519  2934 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1281 com.android.server.notification.sec.DisplayToast.sendIntentForToastDumpLog:156 com.android.server.notification.sec.DisplayToast.outFile:106 com.android.server.notification.sec.DisplayToast.out:62 com.android.server.notification.NotificationManagerService$15.enqueueToastForDex:5125 
+08-18 20:23:25.387 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 0
+08-18 20:23:25.397 16299 16475 I [-0300]oneconnect[1.8.34.21_01][CORE]: DataConvert.parseBleVd - deviceBle : |name:|deviceType:TV|discoverType:_BLE|services:None|connected:false[TvStatusString]POWER_OFF[TvStatus]-128[TvService]102[TvMirrorChannel]1[TvRegisteredDB][-40, -1, -56, -119, 87, 0][TvYear]2016[TvOcfInfo]0[TvAcmStatus]0[ExTvStatus]0[ExtendedStatus]-1[ModuloSn]-1
+08-18 20:23:25.464 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 1
+08-18 20:23:25.472 17587 17587 D MainActivity: Tentando conectar dispositivo...
+08-18 20:23:25.472 17587 17587 E MainActivity: Nenhum dispositivo RTL-SDR encontrado
+08-18 20:23:25.477 17587 17587 I Toast   : show: caller = com.sdrradio.app.MainActivity.connectDevice:297 
+08-18 20:23:25.478 17587 17587 I Toast   : show: contextDispId = 0 mCustomDisplayId = -1 focusedDisplayId = 0 isActivityContext = true
+08-18 20:23:25.481  1519  2934 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1281 com.android.server.notification.sec.DisplayToast.sendIntentForToastDumpLog:156 com.android.server.notification.sec.DisplayToast.outFile:106 com.android.server.notification.sec.DisplayToast.out:62 com.android.server.notification.NotificationManagerService$15.enqueueToastForDex:5125 
+08-18 20:23:25.585 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 0
+08-18 20:23:25.639 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 1
+08-18 20:23:25.651 17587 17587 D MainActivity: Tentando conectar dispositivo...
+08-18 20:23:25.651 17587 17587 E MainActivity: Nenhum dispositivo RTL-SDR encontrado
+08-18 20:23:25.656 17587 17587 I Toast   : show: caller = com.sdrradio.app.MainActivity.connectDevice:297 
+08-18 20:23:25.657 17587 17587 I Toast   : show: contextDispId = 0 mCustomDisplayId = -1 focusedDisplayId = 0 isActivityContext = true
+08-18 20:23:25.661  1519  2225 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1281 com.android.server.notification.sec.DisplayToast.sendIntentForToastDumpLog:156 com.android.server.notification.sec.DisplayToast.outFile:106 com.android.server.notification.sec.DisplayToast.out:62 com.android.server.notification.NotificationManagerService$15.enqueueToastForDex:5125 
+08-18 20:23:25.743 12772 17162 W FusedLocation: mock location injection by 10406/com.just4funtools.fakegpslocationprofessional failed (not in mock mode) [CONTEXT service_id=6 ]
+08-18 20:23:25.751 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 0
+08-18 20:23:25.805 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 1
+08-18 20:23:25.824 17587 17587 D MainActivity: Tentando conectar dispositivo...
+08-18 20:23:25.824 17587 17587 E MainActivity: Nenhum dispositivo RTL-SDR encontrado
+08-18 20:23:25.832 17587 17587 I Toast   : show: caller = com.sdrradio.app.MainActivity.connectDevice:297 
+08-18 20:23:25.833 17587 17587 I Toast   : show: contextDispId = 0 mCustomDisplayId = -1 focusedDisplayId = 0 isActivityContext = true
+08-18 20:23:25.836  1519  2225 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1281 com.android.server.notification.sec.DisplayToast.sendIntentForToastDumpLog:156 com.android.server.notification.sec.DisplayToast.outFile:106 com.android.server.notification.sec.DisplayToast.out:62 com.android.server.notification.NotificationManagerService$15.enqueueToastForDex:5125 
+08-18 20:23:25.862   950   950 I BufferQueueProducer: [com.sdrradio.app/com.sdrradio.app.MainActivity$_17587#40772](this:0xb4000074aa569ba0,id:-1,api:0,p:-1,c:950) queueBuffer: fps=59.07 dur=1015.72 max=33.55 min=16.09
+08-18 20:23:25.920 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 0
+08-18 20:23:25.989 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 1
+08-18 20:23:25.999 17587 17587 D MainActivity: Tentando conectar dispositivo...
+08-18 20:23:25.999 17587 17587 E MainActivity: Nenhum dispositivo RTL-SDR encontrado
+08-18 20:23:26.004 17587 17587 I Toast   : show: caller = com.sdrradio.app.MainActivity.connectDevice:297 
+08-18 20:23:26.008 17587 17587 I Toast   : show: contextDispId = 0 mCustomDisplayId = -1 focusedDisplayId = 0 isActivityContext = true
+08-18 20:23:26.011  1519  2225 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1281 com.android.server.notification.sec.DisplayToast.sendIntentForToastDumpLog:156 com.android.server.notification.sec.DisplayToast.outFile:106 com.android.server.notification.sec.DisplayToast.out:62 com.android.server.notification.NotificationManagerService$15.enqueueToastForDex:5125 
+08-18 20:23:26.089 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 0
+08-18 20:23:26.211 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 1
+08-18 20:23:26.212 17587 17587 D MainActivity: Tentando conectar dispositivo...
+08-18 20:23:26.212 17587 17587 E MainActivity: Nenhum dispositivo RTL-SDR encontrado
+08-18 20:23:26.219 17587 17587 I Toast   : show: caller = com.sdrradio.app.MainActivity.connectDevice:297 
+08-18 20:23:26.219 17587 17587 I Toast   : show: contextDispId = 0 mCustomDisplayId = -1 focusedDisplayId = 0 isActivityContext = true
+08-18 20:23:26.222  1519  2225 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1281 com.android.server.notification.sec.DisplayToast.sendIntentForToastDumpLog:156 com.android.server.notification.sec.DisplayToast.outFile:106 com.android.server.notification.sec.DisplayToast.out:62 com.android.server.notification.NotificationManagerService$15.enqueueToastForDex:5125 
+08-18 20:23:26.299 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 0
+08-18 20:23:26.403 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 1
+08-18 20:23:26.415 17587 17587 D MainActivity: Tentando conectar dispositivo...
+08-18 20:23:26.415 17587 17587 E MainActivity: Nenhum dispositivo RTL-SDR encontrado
+08-18 20:23:26.420 17587 17587 I Toast   : show: caller = com.sdrradio.app.MainActivity.connectDevice:297 
+08-18 20:23:26.421 17587 17587 I Toast   : show: contextDispId = 0 mCustomDisplayId = -1 focusedDisplayId = 0 isActivityContext = true
+08-18 20:23:26.424  1519  2225 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1281 com.android.server.notification.sec.DisplayToast.sendIntentForToastDumpLog:156 com.android.server.notification.sec.DisplayToast.outFile:106 com.android.server.notification.sec.DisplayToast.out:62 com.android.server.notification.NotificationManagerService$15.enqueueToastForDex:5125 
+08-18 20:23:26.512 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 0
+08-18 20:23:26.584 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 1
+08-18 20:23:26.599 17587 17587 D MainActivity: Tentando conectar dispositivo...
+08-18 20:23:26.600 17587 17587 E MainActivity: Nenhum dispositivo RTL-SDR encontrado
+08-18 20:23:26.606 17587 17587 I Toast   : show: caller = com.sdrradio.app.MainActivity.connectDevice:297 
+08-18 20:23:26.607 17587 17587 I Toast   : show: contextDispId = 0 mCustomDisplayId = -1 focusedDisplayId = 0 isActivityContext = true
+08-18 20:23:26.610  1519  2225 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1281 com.android.server.notification.sec.DisplayToast.sendIntentForToastDumpLog:156 com.android.server.notification.sec.DisplayToast.outFile:106 com.android.server.notification.sec.DisplayToast.out:62 com.android.server.notification.NotificationManagerService$15.enqueueToastForDex:5125 
+08-18 20:23:26.672 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 0
+08-18 20:23:26.751 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 1
+08-18 20:23:26.765 17587 17587 D MainActivity: Tentando conectar dispositivo...
+08-18 20:23:26.765 17587 17587 E MainActivity: Nenhum dispositivo RTL-SDR encontrado
+08-18 20:23:26.770 17587 17587 I Toast   : show: caller = com.sdrradio.app.MainActivity.connectDevice:297 
+08-18 20:23:26.770 17587 17587 I Toast   : show: contextDispId = 0 mCustomDisplayId = -1 focusedDisplayId = 0 isActivityContext = true
+08-18 20:23:26.773  1519  2225 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1281 com.android.server.notification.sec.DisplayToast.sendIntentForToastDumpLog:156 com.android.server.notification.sec.DisplayToast.outFile:106 com.android.server.notification.sec.DisplayToast.out:62 com.android.server.notification.NotificationManagerService$15.enqueueToastForDex:5125 
+08-18 20:23:26.868 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 0
+08-18 20:23:26.878   950   950 I BufferQueueProducer: [com.sdrradio.app/com.sdrradio.app.MainActivity$_17587#40772](this:0xb4000074aa569ba0,id:-1,api:0,p:-1,c:950) queueBuffer: fps=60.09 dur=1015.06 max=17.22 min=16.16
+08-18 20:23:26.963 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 1
+08-18 20:23:26.981 17587 17587 D MainActivity: Tentando conectar dispositivo...
+08-18 20:23:26.981 17587 17587 E MainActivity: Nenhum dispositivo RTL-SDR encontrado
+08-18 20:23:26.987 17587 17587 I Toast   : show: caller = com.sdrradio.app.MainActivity.connectDevice:297 
+08-18 20:23:26.987 17587 17587 I Toast   : show: contextDispId = 0 mCustomDisplayId = -1 focusedDisplayId = 0 isActivityContext = true
+08-18 20:23:26.990  1519  2225 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1281 com.android.server.notification.sec.DisplayToast.sendIntentForToastDumpLog:156 com.android.server.notification.sec.DisplayToast.outFile:106 com.android.server.notification.sec.DisplayToast.out:62 com.android.server.notification.NotificationManagerService$15.enqueueToastForDex:5125 
+08-18 20:23:27.044 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 0
+08-18 20:23:27.111 16299 16475 I [-0300]oneconnect[1.8.34.21_01][CORE]: DataConvert.parseBleVd - deviceBle : |name:|deviceType:TV|discoverType:_BLE|services:None|connected:false[TvStatusString]POWER_OFF[TvStatus]-128[TvService]102[TvMirrorChannel]1[TvRegisteredDB][-40, -1, -56, -119, 87, 0][TvYear]2016[TvOcfInfo]0[TvAcmStatus]0[ExTvStatus]0[ExtendedStatus]-1[ModuloSn]-1
+08-18 20:23:27.138  2053  2053 I WindowManager: WindowManagerGlobal#removeView, ty=2005, view=android.widget.LinearLayout{462617c V.E...... ........ 0,0-682,116}, caller=android.view.WindowManagerGlobal.removeView:628 android.view.WindowManagerImpl.removeViewImmediate:208 android.widget.ToastPresenter.hide:358 
+08-18 20:23:27.139  1519  2225 D CoreBackPreview: Window{3265f6f u0 Toast}: Setting back callback null
+08-18 20:23:27.142  2053  2053 I ViewRootImpl@97f7a05[Toast]: dispatchDetachedFromWindow
+08-18 20:23:27.142  2053  2053 D BLASTBufferQueue: [ViewRootImpl@97f7a05[Toast]#2237](f:0,a:1) destructor()
+08-18 20:23:27.142  2053  2053 D BufferQueueConsumer: [ViewRootImpl@97f7a05[Toast]#2237(BLAST Consumer)2237](id:805000008c2,api:0,p:-1,c:2053) disconnect
+08-18 20:23:27.144  1519  2225 W InputManager-JNI: Input channel object '3265f6f Toast (client)' was disposed without first being removed with the input manager!
+08-18 20:23:27.145  1519  2225 V WindowManager: Remove Window{3265f6f u0 Toast}: mSurfaceController=Surface(name=Toast$_2053)/@0x5003599 mAnimatingExit=false mRemoveOnExit=false mHasSurface=true surfaceShowing=true animating=false app-animation=false mDisplayFrozen=false callers=com.android.server.wm.WindowManagerService.removeWindow:2148 com.android.server.wm.Session.remove:257 android.view.IWindowSession$Stub.onTransact:747 com.android.server.wm.Session.onTransact:204 android.os.Binder.execTransactInternal:1380 android.os.Binder.execTransact:1311 
+08-18 20:23:27.145  1519  2225 I WindowManager: Reparenting to leash, surface=Surface(name=3265f6f Toast)/@0x3e3838b, leashParent=Surface(name=WindowToken{50f0745 type=2005 android.os.Binder@deedbbc})/@0x2758c68
+08-18 20:23:27.146   950  1010 E BufferQueueDebug: [Surface(name=3265f6f Toast)/@0x3e3838b - animation-leash of window_animation#40824](this:0xb4000074aa5b0ba0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Surface(name=3265f6f Toast)/@0x3e3838b - animation-leash of window_animation#40824'
+08-18 20:23:27.146   950  1010 I BufferQueueDebug: [Surface(name=3265f6f Toast)/@0x3e3838b - animation-leash of window_animation#40824](this:0xb4000074aa5b0ba0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(950:/system/bin/surfaceflinger)
+08-18 20:23:27.147   950  1010 I SurfaceFlinger: id=40824 createSurf, flag=24000, Surface(name=3265f6f Toast)/@0x3e3838b - animation-leash of window_animation#40824
+08-18 20:23:27.148  1519  2225 D WindowManager: makeSurface duration=3 leash=Surface(name=Surface(name=3265f6f Toast)/@0x3e3838b - animation-leash of window_animation)/@0xec1a05e
+08-18 20:23:27.148  1519  2225 V WindowManager: removeIfPossible 2, Window{3265f6f u0 Toast}: mAnimatingExit=true caller=com.android.server.wm.WindowManagerService.removeWindow:2148 com.android.server.wm.Session.remove:257 android.view.IWindowSession$Stub.onTransact:747 com.android.server.wm.Session.onTransact:204 android.os.Binder.execTransactInternal:1380 
+08-18 20:23:27.152  1519  2225 W NotificationService: Toast already killed. pkg=com.sdrradio.app token=android.os.BinderProxy@e021c3f
+08-18 20:23:27.159 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 1
+08-18 20:23:27.164 17587 17587 D MainActivity: Tentando conectar dispositivo...
+08-18 20:23:27.164 17587 17587 E MainActivity: Nenhum dispositivo RTL-SDR encontrado
+08-18 20:23:27.169 17587 17587 I Toast   : show: caller = com.sdrradio.app.MainActivity.connectDevice:297 
+08-18 20:23:27.169 17587 17587 I Toast   : show: contextDispId = 0 mCustomDisplayId = -1 focusedDisplayId = 0 isActivityContext = true
+08-18 20:23:27.171  1519  2225 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1281 com.android.server.notification.sec.DisplayToast.sendIntentForToastDumpLog:156 com.android.server.notification.sec.DisplayToast.outFile:106 com.android.server.notification.sec.DisplayToast.out:62 com.android.server.notification.NotificationManagerService$15.enqueueToastForDex:5125 
+08-18 20:23:27.171  2053  2053 V ToastPresenter: yOffset = 168
+08-18 20:23:27.171  2053  2053 V ToastPresenter: Text: Oenh in android.widget.ToastPresenter@750a462
+08-18 20:23:27.172  2053  2053 I WindowManager: WindowManagerGlobal#addView, ty=2005, view=android.widget.LinearLayout{53809f3 V.E...... ......I. 0,0-0,0}, caller=android.view.WindowManagerImpl.addView:150 android.widget.ToastPresenter.addToastView:414 android.widget.ToastPresenter.show:335 
+08-18 20:23:27.179   950  1332 E BufferQueueDebug: [444dd0e Toast#40826](this:0xb4000074aa659ba0,id:-1,api:0,p:-1,c:-1) id info cannot be read from '444dd0e Toast#40826'
+08-18 20:23:27.179   950  1332 I BufferQueueDebug: [444dd0e Toast#40826](this:0xb4000074aa659ba0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(950:/system/bin/surfaceflinger)
+08-18 20:23:27.179   950  1332 I SurfaceFlinger: id=40826 createSurf, flag=84004, 444dd0e Toast#40826
+08-18 20:23:27.184  2053  2053 I InsetsController: onStateChanged: host=Toast, from=android.view.ViewRootImpl.setView:1753, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 80 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(472, 0 - 608, 80), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 H -24.177777778 V 28.4444444444 H 24.177777778 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=0, center=Point(0, 0)}, RoundedCorner{position=TopRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomLeft, radius=0, center=Point(0, 0)}]}  mRoundedCornerFrame=Rect(0, 0 - 0, 0), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(964, 0 - 1080, 80) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {e3260001 mType=navigationBars mFrame=[0,2301][1080,2340] mVisible=true mFlags=[SUPPRESS_SCRIM]}, InsetsSource: {e3260004 mType=systemGestures mFrame=[0,0][78,2340] mVisible=true mFlags=[]}, InsetsSource: {e3260005 mType=mandatorySystemGestures mFrame=[0,2256][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {e3260006 mType=tappableElement mFrame=[0,0][0,0] mVisible=true mFlags=[]}, InsetsSource: {e3260024 mType=systemGestures mFrame=[1002,0][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags=[]}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,80] mVisible=true mFlags=[]}, InsetsSource: {737f0000 mType=statusBars mFrame=[0,0][1080,80] mVisible=true mFlags=[]}, InsetsSource: {737f0005 mType=mandatorySystemGestures mFrame=[0,0][1080,112] mVisible=true mFlags=[]}, InsetsSource: {737f0006 mType=tappableElement mFrame=[0,0][1080,80] mVisible=true mFlags=[]} }
+08-18 20:23:27.184  2053  2053 I ViewRootImpl@d676b0[Toast]: synced displayState. AttachInfo displayState=2
+08-18 20:23:27.184  2053  2053 I ViewRootImpl@d676b0[Toast]: setView = android.widget.LinearLayout@53809f3 TM=true
+08-18 20:23:27.187  1519  2934 D CoreBackPreview: Window{444dd0e u0 Toast}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@af5bc1a, mPriority=0, mIsAnimationCallback=false}
+08-18 20:23:27.187  1519  4466 V WindowManager: Relayout Window{444dd0e u0 Toast}: viewVisibility=0 req=822x116 ty=2005 d0
+08-18 20:23:27.190   950  1332 E BufferQueueDebug: [Toast$_2053#40827](this:0xb4000074aa408ba0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Toast$_2053#40827'
+08-18 20:23:27.190   950  1332 I BufferQueueDebug: [Toast$_2053#40827](this:0xb4000074aa408ba0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(950:/system/bin/surfaceflinger)
+08-18 20:23:27.190   950  1332 I SurfaceFlinger: id=40827 createSurf, flag=44004, Toast$_2053#40827
+08-18 20:23:27.191  1519  4466 D WindowManager: makeSurface duration=4 name=Toast$_2053
+08-18 20:23:27.198  2053  2053 D BufferQueueConsumer: [](id:805000008c3,api:0,p:-1,c:2053) connect: controlledByApp=false
+08-18 20:23:27.199  2053  2053 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= ViewRootImpl@d676b0[Toast] mNativeObject= 0xb400006dc4bc2f80 sc.mNativeObject= 0xb400006de9cb8b00 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3028 android.view.ViewRootImpl.relayoutWindow:10131 android.view.ViewRootImpl.performTraversals:4110 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 android.view.Choreographer$CallbackRecord.run:1689 android.view.Choreographer$CallbackRecord.run:1698 android.view.Choreographer.doCallbacks:1153 android.view.Choreographer.doFrame:1079 android.view.Choreographer$FrameDisplayEventReceiver.run:1646 
+08-18 20:23:27.199  2053  2053 I BLASTBufferQueue_Java: update, w= 822 h= 116 mName = ViewRootImpl@d676b0[Toast] mNativeObject= 0xb400006dc4bc2f80 sc.mNativeObject= 0xb400006de9cb8b00 format= -3 caller= android.graphics.BLASTBufferQueue.<init>:89 android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3028 android.view.ViewRootImpl.relayoutWindow:10131 android.view.ViewRootImpl.performTraversals:4110 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 
+08-18 20:23:27.199  2053  2053 I ViewRootImpl@d676b0[Toast]: Relayout returned: old=(0,80,1080,2301) new=(129,2017,951,2133) relayoutAsync=false req=(822,116)0 dur=11 res=0x3 s={true 0xb400006dc4e88800} ch=true seqId=0
+08-18 20:23:27.200  2053  2053 I ViewRootImpl@d676b0[Toast]: performConfigurationChange setNightDimText nightDimLevel=0
+08-18 20:23:27.200  2053  2053 D ViewRootImpl@d676b0[Toast]: mThreadedRenderer.initialize() mSurface={isValid=true 0xb400006dc4e88800} hwInitialized=true
+08-18 20:23:27.201  2053  2053 D ViewRootImpl@d676b0[Toast]: reportNextDraw android.view.ViewRootImpl.performTraversals:4718 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 android.view.Choreographer$CallbackRecord.run:1689 android.view.Choreographer$CallbackRecord.run:1698 
+08-18 20:23:27.201  2053  2053 I ViewRootImpl@d676b0[Toast]: Setup new sync=wmsSync-ViewRootImpl@d676b0[Toast]#81
+08-18 20:23:27.201  2053  2053 I ViewRootImpl@d676b0[Toast]: Creating new active sync group ViewRootImpl@d676b0[Toast]#82
+08-18 20:23:27.202  2053  2053 I ViewRootImpl@d676b0[Toast]: registerCallbacksForSync syncBuffer=false
+08-18 20:23:27.204  2053  2807 I ViewRootImpl@d676b0[Toast]: Received frameDrawingCallback syncResult=0 frameNum=1.
+08-18 20:23:27.204  2053  2807 I ViewRootImpl@d676b0[Toast]: mWNT: t=0xb400006dc4b20b80 mBlastBufferQueue=0xb400006dc4bc2f80 fn= 1 mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$8.onFrameDraw:13841 android.view.ThreadedRenderer$1.onFrameDraw:792 <bottom of call stack> 
+08-18 20:23:27.205  2053  2807 I ViewRootImpl@d676b0[Toast]: Setting up sync and frameCommitCallback
+08-18 20:23:27.208  2053  2217 D BLASTBufferQueue: [ViewRootImpl@d676b0[Toast]#2238](f:0,a:0) onFrameAvailable the first frame is available
+08-18 20:23:27.209  2053  2217 D BLASTBufferQueue: [ViewRootImpl@d676b0[Toast]#2238](f:0,a:1) acquireNextBufferLocked size=822x116 mFrameNumber=1 applyTransaction=true mTimestamp=316888194736887(auto) mPendingTransactions.size=0 graphicBufferId=8817567885351 transform=0
+08-18 20:23:27.209  2053  2217 I ViewRootImpl@d676b0[Toast]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+08-18 20:23:27.211  2053  2053 I ViewRootImpl@d676b0[Toast]: reportDrawFinished seqId=0
+08-18 20:23:27.212  1519  2934 D WindowManager: finishDrawingWindow: Window{444dd0e u0 Toast} mDrawState=DRAW_PENDING seqId=0
+08-18 20:23:27.217  1519  1548 I WindowManager: Reparenting to leash, surface=Surface(name=444dd0e Toast)/@0xd334b, leashParent=Surface(name=WindowToken{6c2fdaa type=2005 android.os.Binder@21ac895})/@0x241e128
+08-18 20:23:27.218   950  1010 E BufferQueueDebug: [Surface(name=444dd0e Toast)/@0xd334b - animation-leash of window_animation#40828](this:0xb4000074aa5b3ba0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Surface(name=444dd0e Toast)/@0xd334b - animation-leash of window_animation#40828'
+08-18 20:23:27.218   950  1010 I BufferQueueDebug: [Surface(name=444dd0e Toast)/@0xd334b - animation-leash of window_animation#40828](this:0xb4000074aa5b3ba0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(950:/system/bin/surfaceflinger)
+08-18 20:23:27.218   950  1010 I SurfaceFlinger: id=40828 createSurf, flag=24004, Surface(name=444dd0e Toast)/@0xd334b - animation-leash of window_animation#40828
+08-18 20:23:27.219  1519  1548 D WindowManager: makeSurface duration=2 leash=Surface(name=Surface(name=444dd0e Toast)/@0xd334b - animation-leash of window_animation)/@0x5973e41
+08-18 20:23:27.220  1519  1548 V WindowManager: performShowLocked: mDrawState=HAS_DRAWN in Window{444dd0e u0 Toast}
+08-18 20:23:27.228   950   950 I Layer   : Layer [Toast$_2053#40827] hidden!! flag(0)
+08-18 20:23:27.267   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074aa93aa80 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2340.0 |    0    0 1080 2340 | com.sdrradio.app/com.sdrradio.app.MainActivity$_17587#40772
+08-18 20:23:27.267   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074ab26f980 | 0100 | RGBA_8888    |    0.0    0.0  682.0  116.0 |  199 2017  881 2133 | Toast$_2053#40820
+08-18 20:23:27.267   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074afd51fc0 | 0100 | RGBA_8888    |    0.0    0.0  822.0  116.0 |  129 2017  951 2133 | Toast$_2053#40827
+08-18 20:23:27.276 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 0
+08-18 20:23:27.352 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 1
+08-18 20:23:27.366 17587 17587 D MainActivity: Tentando conectar dispositivo...
+08-18 20:23:27.366 17587 17587 E MainActivity: Nenhum dispositivo RTL-SDR encontrado
+08-18 20:23:27.374 17587 17587 I Toast   : show: caller = com.sdrradio.app.MainActivity.connectDevice:297 
+08-18 20:23:27.375 17587 17587 I Toast   : show: contextDispId = 0 mCustomDisplayId = -1 focusedDisplayId = 0 isActivityContext = true
+08-18 20:23:27.378  1519  2934 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1281 com.android.server.notification.sec.DisplayToast.sendIntentForToastDumpLog:156 com.android.server.notification.sec.DisplayToast.outFile:106 com.android.server.notification.sec.DisplayToast.out:62 com.android.server.notification.NotificationManagerService$15.enqueueToastForDex:5125 
+08-18 20:23:27.436 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 0
+08-18 20:23:27.495 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 1
+08-18 20:23:27.504 17587 17587 D MainActivity: Tentando conectar dispositivo...
+08-18 20:23:27.504 17587 17587 E MainActivity: Nenhum dispositivo RTL-SDR encontrado
+08-18 20:23:27.509 17587 17587 I Toast   : show: caller = com.sdrradio.app.MainActivity.connectDevice:297 
+08-18 20:23:27.509 17587 17587 I Toast   : show: contextDispId = 0 mCustomDisplayId = -1 focusedDisplayId = 0 isActivityContext = true
+08-18 20:23:27.513  1519  2934 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1281 com.android.server.notification.sec.DisplayToast.sendIntentForToastDumpLog:156 com.android.server.notification.sec.DisplayToast.outFile:106 com.android.server.notification.sec.DisplayToast.out:62 com.android.server.notification.NotificationManagerService$15.enqueueToastForDex:5125 
+08-18 20:23:27.660  1519  1548 I WindowManager: Reparenting to original parent: Surface(name=WindowToken{50f0745 type=2005 android.os.Binder@deedbbc})/@0x2758c68, destroy=true, surface=Surface(name=3265f6f Toast)/@0x3e3838b
+08-18 20:23:27.678  1519  1548 I WindowManager: Destroying surface Surface(name=Toast$_2053)/@0x5003599 called by com.android.server.wm.WindowStateAnimator.destroySurface:799 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:472 com.android.server.wm.WindowState.removeImmediately:2937 com.android.server.wm.WindowState.handleCompleteDeferredRemoval:5780 com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval:1476 com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval:1476 com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval:1476 com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval:1476 
+08-18 20:23:27.685   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074aa93aa80 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2340.0 |    0    0 1080 2340 | com.sdrradio.app/com.sdrradio.app.MainActivity$_17587#40772
+08-18 20:23:27.685   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074afd51fc0 | 0100 | RGBA_8888    |    0.0    0.0  822.0  116.0 |  129 2017  951 2133 | Toast$_2053#40827
+08-18 20:23:27.693   950   950 I Layer   : id=40819 removeFromCurrentState 3265f6f Toast#40819 (232)
+08-18 20:23:27.693   950   950 I Layer   : id=40820 removeFromCurrentState Toast$_2053#40820 (232)
+08-18 20:23:27.694   950   950 I Layer   : id=40824 removeFromCurrentState Surface(name=3265f6f Toast)/@0x3e3838b - animation-leash of window_animation#40824 (232)
+08-18 20:23:27.694   950   950 I Layer   : Layer [Toast$_2053#40820] hidden!! flag(1)
+08-18 20:23:27.694   950   950 I Layer   : id=40820 removeFromCurrentState Toast$_2053#40820 (232)
+08-18 20:23:27.695   950   950 I SurfaceFlinger: id=40820 Removed Toast$_2053#40820 (232)
+08-18 20:23:27.695   950   950 I SurfaceFlinger: id=40824 Removed Surface(name=3265f6f Toast)/@0x3e3838b - animation-leash of window_animation#40824 (232)
+08-18 20:23:27.695   950   950 I SurfaceFlinger: id=40819 Removed 3265f6f Toast#40819 (232)
+08-18 20:23:27.710   950   950 I BufferQueueDebug: [Surface(name=3265f6f Toast)/@0x3e3838b - animation-leash of window_animation#40824](this:0xb4000074aa5b0ba0,id:-1,api:0,p:-1,c:950) onDestructor()
+08-18 20:23:27.711   950   950 I Layer   : id=40824 Destroyed Surface(name=3265f6f Toast)/@0x3e3838b - animation-leash of window_animation#40824
+08-18 20:23:27.711   950   950 I BufferQueueDebug: [Toast$_2053#40820](this:0xb4000074afea0ba0,id:-1,api:0,p:-1,c:950) onDestructor()
+08-18 20:23:27.711   950   950 I Layer   : id=40820 Destroyed Toast$_2053#40820
+08-18 20:23:27.711   950   950 I BufferQueueDebug: [3265f6f Toast#40819](this:0xb4000074b0067ba0,id:-1,api:0,p:-1,c:950) onDestructor()
+08-18 20:23:27.711   950   950 I Layer   : id=40819 Destroyed 3265f6f Toast#40819
+08-18 20:23:27.745  1519  1548 I WindowManager: Reparenting to original parent: Surface(name=WindowToken{6c2fdaa type=2005 android.os.Binder@21ac895})/@0x241e128, destroy=true, surface=Surface(name=444dd0e Toast)/@0xd334b
+08-18 20:23:27.761   950   950 I Layer   : id=40828 removeFromCurrentState Surface(name=444dd0e Toast)/@0xd334b - animation-leash of window_animation#40828 (229)
+08-18 20:23:27.763   950   950 I SurfaceFlinger: id=40828 Removed Surface(name=444dd0e Toast)/@0xd334b - animation-leash of window_animation#40828 (229)
+08-18 20:23:27.777   950   950 I BufferQueueDebug: [Surface(name=444dd0e Toast)/@0xd334b - animation-leash of window_animation#40828](this:0xb4000074aa5b3ba0,id:-1,api:0,p:-1,c:950) onDestructor()
+08-18 20:23:27.777   950   950 I Layer   : id=40828 Destroyed Surface(name=444dd0e Toast)/@0xd334b - animation-leash of window_animation#40828
+08-18 20:23:27.893   950   950 I BufferQueueProducer: [com.sdrradio.app/com.sdrradio.app.MainActivity$_17587#40772](this:0xb4000074aa569ba0,id:-1,api:0,p:-1,c:950) queueBuffer: fps=57.13 dur=1015.24 max=33.58 min=16.11
+08-18 20:23:28.029 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 0
+08-18 20:23:28.303 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 1
+08-18 20:23:28.404   886   923 E BatteryDump: !@new_battery_dump : 3783,-11,475,550,26,353,353,400,0,0,372,400,0,Charging,NO_CHARGING,Normal,Good,USB,1,Normal,0,0,9600,0x0,0x10000,0x0,0,0,0000,0000,00000000,0,0,0,0,218,3763,2590,990,0,
+08-18 20:23:28.418  2053  2053 I AODBatteryManager: saveBatteryData : AOD BatteryData [mBatteryLevel=26, mBatteryStatus=CHARGING, mBatteryPlugType=USB, mBatteryPlugged=true, mRemainingChargeTime=27502000, mBatteryChargingType=1, mBatteryChargerType=NORMAL, mBatteryOnline=USB, mBatterySwellingMode=NONE, mBatteryProtectMode=false, mBatteryProtectModeType=1, mSleepChargingEvent=null, mSleepChargingEventFinishTime=null]
+08-18 20:23:28.443 12772 17162 W FusedLocation: mock location injection by 10406/com.just4funtools.fakegpslocationprofessional failed (not in mock mode) [CONTEXT service_id=6 ]
+08-18 20:23:28.814 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 0
+08-18 20:23:28.942   950   950 I BufferQueueProducer: [com.sdrradio.app/com.sdrradio.app.MainActivity$_17587#40772](this:0xb4000074aa569ba0,id:-1,api:0,p:-1,c:950) queueBuffer: fps=20.98 dur=1048.81 max=382.44 min=16.28
+08-18 20:23:28.973 16299 16475 I [-0300]oneconnect[1.8.34.21_01][CORE]: DataConvert.parseBleVd - deviceBle : |name:|deviceType:TV|discoverType:_BLE|services:None|connected:false[TvStatusString]POWER_OFF[TvStatus]-128[TvService]102[TvMirrorChannel]1[TvRegisteredDB][-40, -1, -56, -119, 87, 0][TvYear]2016[TvOcfInfo]0[TvAcmStatus]0[ExTvStatus]0[ExtendedStatus]-1[ModuloSn]-1
+08-18 20:23:29.128 16299 16475 I [-0300]oneconnect[1.8.34.21_01][CORE]: DataConvert.parseBleVd - deviceBle : |name:|deviceType:TV|discoverType:_BLE|services:None|connected:false[TvStatusString]POWER_OFF[TvStatus]-128[TvService]102[TvMirrorChannel]1[TvRegisteredDB][-40, -1, -56, -119, 87, 0][TvYear]2016[TvOcfInfo]0[TvAcmStatus]0[ExTvStatus]0[ExtendedStatus]-1[ModuloSn]-1
+08-18 20:23:29.569 17587 17587 I ViewRootImpl@da5e40d[MainActivity]: ViewPostIme pointer 1
+08-18 20:23:29.723  2053  2053 I WindowManager: WindowManagerGlobal#removeView, ty=2005, view=android.widget.LinearLayout{53809f3 V.E...... ........ 0,0-822,116}, caller=android.view.WindowManagerGlobal.removeView:628 android.view.WindowManagerImpl.removeViewImmediate:208 android.widget.ToastPresenter.hide:358 
+08-18 20:23:29.723  1519  2934 D CoreBackPreview: Window{444dd0e u0 Toast}: Setting back callback null
+08-18 20:23:29.725  2053  2053 I ViewRootImpl@d676b0[Toast]: dispatchDetachedFromWindow
+08-18 20:23:29.726  2053  2053 D BLASTBufferQueue: [ViewRootImpl@d676b0[Toast]#2238](f:0,a:1) destructor()
+08-18 20:23:29.726  2053  2053 D BufferQueueConsumer: [ViewRootImpl@d676b0[Toast]#2238(BLAST Consumer)2238](id:805000008c3,api:0,p:-1,c:2053) disconnect
+08-18 20:23:29.727  1519  2934 W InputManager-JNI: Input channel object '444dd0e Toast (client)' was disposed without first being removed with the input manager!
+08-18 20:23:29.727  1519  2934 V WindowManager: Remove Window{444dd0e u0 Toast}: mSurfaceController=Surface(name=Toast$_2053)/@0xc1ae96 mAnimatingExit=false mRemoveOnExit=false mHasSurface=true surfaceShowing=true animating=false app-animation=false mDisplayFrozen=false callers=com.android.server.wm.WindowManagerService.removeWindow:2148 com.android.server.wm.Session.remove:257 android.view.IWindowSession$Stub.onTransact:747 com.android.server.wm.Session.onTransact:204 android.os.Binder.execTransactInternal:1380 android.os.Binder.execTransact:1311 
+08-18 20:23:29.728  1519  2934 I WindowManager: Reparenting to leash, surface=Surface(name=444dd0e Toast)/@0xd334b, leashParent=Surface(name=WindowToken{6c2fdaa type=2005 android.os.Binder@21ac895})/@0x241e128
+08-18 20:23:29.728   950  1329 E BufferQueueDebug: [Surface(name=444dd0e Toast)/@0xd334b - animation-leash of window_animation#40829](this:0xb4000074b00daba0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Surface(name=444dd0e Toast)/@0xd334b - animation-leash of window_animation#40829'
+08-18 20:23:29.728   950  1329 I BufferQueueDebug: [Surface(name=444dd0e Toast)/@0xd334b - animation-leash of window_animation#40829](this:0xb4000074b00daba0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(950:/system/bin/surfaceflinger)
+08-18 20:23:29.728   950  1329 I SurfaceFlinger: id=40829 createSurf, flag=24000, Surface(name=444dd0e Toast)/@0xd334b - animation-leash of window_animation#40829
+08-18 20:23:29.730  1519  2934 D WindowManager: makeSurface duration=2 leash=Surface(name=Surface(name=444dd0e Toast)/@0xd334b - animation-leash of window_animation)/@0x3ad3a17
+08-18 20:23:29.730  1519  2934 V WindowManager: removeIfPossible 2, Window{444dd0e u0 Toast}: mAnimatingExit=true caller=com.android.server.wm.WindowManagerService.removeWindow:2148 com.android.server.wm.Session.remove:257 android.view.IWindowSession$Stub.onTransact:747 com.android.server.wm.Session.onTransact:204 android.os.Binder.execTransactInternal:1380 
+08-18 20:23:29.735  1519  4466 W NotificationService: Toast already killed. pkg=com.sdrradio.app token=android.os.BinderProxy@d3eee04
+08-18 20:23:29.753  2053  2053 V ToastPresenter: yOffset = 168
+08-18 20:23:29.754  2053  2053 V ToastPresenter: Text: Oenh in android.widget.ToastPresenter@14c7d1
+08-18 20:23:29.754  2053  2053 I WindowManager: WindowManagerGlobal#addView, ty=2005, view=android.widget.LinearLayout{a60f236 V.E...... ......I. 0,0-0,0}, caller=android.view.WindowManagerImpl.addView:150 android.widget.ToastPresenter.addToastView:414 android.widget.ToastPresenter.show:335 
+08-18 20:23:29.762   950  1008 E BufferQueueDebug: [51e6de9 Toast#40830](this:0xb4000074aff88ba0,id:-1,api:0,p:-1,c:-1) id info cannot be read from '51e6de9 Toast#40830'
+08-18 20:23:29.763   950  1008 I BufferQueueDebug: [51e6de9 Toast#40830](this:0xb4000074aff88ba0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(950:/system/bin/surfaceflinger)
+08-18 20:23:29.763   950  1008 I SurfaceFlinger: id=40830 createSurf, flag=84004, 51e6de9 Toast#40830
+08-18 20:23:29.767  2053  2053 I InsetsController: onStateChanged: host=Toast, from=android.view.ViewRootImpl.setView:1753, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 80 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(472, 0 - 608, 80), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 H -24.177777778 V 28.4444444444 H 24.177777778 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=0, center=Point(0, 0)}, RoundedCorner{position=TopRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomLeft, radius=0, center=Point(0, 0)}]}  mRoundedCornerFrame=Rect(0, 0 - 0, 0), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(964, 0 - 1080, 80) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {e3260001 mType=navigationBars mFrame=[0,2301][1080,2340] mVisible=true mFlags=[SUPPRESS_SCRIM]}, InsetsSource: {e3260004 mType=systemGestures mFrame=[0,0][78,2340] mVisible=true mFlags=[]}, InsetsSource: {e3260005 mType=mandatorySystemGestures mFrame=[0,2256][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {e3260006 mType=tappableElement mFrame=[0,0][0,0] mVisible=true mFlags=[]}, InsetsSource: {e3260024 mType=systemGestures mFrame=[1002,0][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags=[]}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,80] mVisible=true mFlags=[]}, InsetsSource: {737f0000 mType=statusBars mFrame=[0,0][1080,80] mVisible=true mFlags=[]}, InsetsSource: {737f0005 mType=mandatorySystemGestures mFrame=[0,0][1080,112] mVisible=true mFlags=[]}, InsetsSource: {737f0006 mType=tappableElement mFrame=[0,0][1080,80] mVisible=true mFlags=[]} }
+08-18 20:23:29.767  2053  2053 I ViewRootImpl@d7c537[Toast]: synced displayState. AttachInfo displayState=2
+08-18 20:23:29.767  2053  2053 I ViewRootImpl@d7c537[Toast]: setView = android.widget.LinearLayout@a60f236 TM=true
+08-18 20:23:29.770  1519  4466 D CoreBackPreview: Window{51e6de9 u0 Toast}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@ae7550f, mPriority=0, mIsAnimationCallback=false}
+08-18 20:23:29.771  1519  2934 V WindowManager: Relayout Window{51e6de9 u0 Toast}: viewVisibility=0 req=822x116 ty=2005 d0
+08-18 20:23:29.771   950  1008 E BufferQueueDebug: [Toast$_2053#40831](this:0xb4000074affa8ba0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Toast$_2053#40831'
+08-18 20:23:29.772   950  1008 I BufferQueueDebug: [Toast$_2053#40831](this:0xb4000074affa8ba0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(950:/system/bin/surfaceflinger)
+08-18 20:23:29.772   950  1008 I SurfaceFlinger: id=40831 createSurf, flag=44004, Toast$_2053#40831
+08-18 20:23:29.773  1519  2934 D WindowManager: makeSurface duration=2 name=Toast$_2053
+08-18 20:23:29.781  2053  2053 D BufferQueueConsumer: [](id:805000008c4,api:0,p:-1,c:2053) connect: controlledByApp=false
+08-18 20:23:29.782  2053  2053 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= ViewRootImpl@d7c537[Toast] mNativeObject= 0xb400006dc4bc2f80 sc.mNativeObject= 0xb400006dea177780 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3028 android.view.ViewRootImpl.relayoutWindow:10131 android.view.ViewRootImpl.performTraversals:4110 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 android.view.Choreographer$CallbackRecord.run:1689 android.view.Choreographer$CallbackRecord.run:1698 android.view.Choreographer.doCallbacks:1153 android.view.Choreographer.doFrame:1079 android.view.Choreographer$FrameDisplayEventReceiver.run:1646 
+08-18 20:23:29.782  2053  2053 I BLASTBufferQueue_Java: update, w= 822 h= 116 mName = ViewRootImpl@d7c537[Toast] mNativeObject= 0xb400006dc4bc2f80 sc.mNativeObject= 0xb400006dea177780 format= -3 caller= android.graphics.BLASTBufferQueue.<init>:89 android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3028 android.view.ViewRootImpl.relayoutWindow:10131 android.view.ViewRootImpl.performTraversals:4110 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 
+08-18 20:23:29.783  2053  2053 I ViewRootImpl@d7c537[Toast]: Relayout returned: old=(0,80,1080,2301) new=(129,2017,951,2133) relayoutAsync=false req=(822,116)0 dur=11 res=0x3 s={true 0xb400006dc4e88800} ch=true seqId=0
+08-18 20:23:29.783  2053  2053 I ViewRootImpl@d7c537[Toast]: performConfigurationChange setNightDimText nightDimLevel=0
+08-18 20:23:29.784  2053  2053 D ViewRootImpl@d7c537[Toast]: mThreadedRenderer.initialize() mSurface={isValid=true 0xb400006dc4e88800} hwInitialized=true
+08-18 20:23:29.786  2053  2053 D ViewRootImpl@d7c537[Toast]: reportNextDraw android.view.ViewRootImpl.performTraversals:4718 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 android.view.Choreographer$CallbackRecord.run:1689 android.view.Choreographer$CallbackRecord.run:1698 
+08-18 20:23:29.786  2053  2053 I ViewRootImpl@d7c537[Toast]: Setup new sync=wmsSync-ViewRootImpl@d7c537[Toast]#83
+08-18 20:23:29.786  2053  2053 I ViewRootImpl@d7c537[Toast]: Creating new active sync group ViewRootImpl@d7c537[Toast]#84
+08-18 20:23:29.787  2053  2053 I ViewRootImpl@d7c537[Toast]: registerCallbacksForSync syncBuffer=false
+08-18 20:23:29.790  2053  2806 I ViewRootImpl@d7c537[Toast]: Received frameDrawingCallback syncResult=0 frameNum=1.
+08-18 20:23:29.790  2053  2806 I ViewRootImpl@d7c537[Toast]: mWNT: t=0xb400006dc4c28e00 mBlastBufferQueue=0xb400006dc4bc2f80 fn= 1 mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$8.onFrameDraw:13841 android.view.ThreadedRenderer$1.onFrameDraw:792 <bottom of call stack> 
+08-18 20:23:29.790  2053  2806 I ViewRootImpl@d7c537[Toast]: Setting up sync and frameCommitCallback
+08-18 20:23:29.802  2053  2217 D BLASTBufferQueue: [ViewRootImpl@d7c537[Toast]#2239](f:0,a:0) onFrameAvailable the first frame is available
+08-18 20:23:29.803  2053  2217 D BLASTBufferQueue: [ViewRootImpl@d7c537[Toast]#2239](f:0,a:1) acquireNextBufferLocked size=822x116 mFrameNumber=1 applyTransaction=true mTimestamp=316890788990425(auto) mPendingTransactions.size=0 graphicBufferId=8817567885355 transform=0
+08-18 20:23:29.804  2053  2217 I ViewRootImpl@d7c537[Toast]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+08-18 20:23:29.806  2053  2053 I ViewRootImpl@d7c537[Toast]: reportDrawFinished seqId=0
+08-18 20:23:29.807  1519  2934 D WindowManager: finishDrawingWindow: Window{51e6de9 u0 Toast} mDrawState=DRAW_PENDING seqId=0
+08-18 20:23:29.809  1519  1548 I WindowManager: Reparenting to leash, surface=Surface(name=51e6de9 Toast)/@0x903f99c, leashParent=Surface(name=WindowToken{6149ce4 type=2005 android.os.Binder@762d877})/@0x766ffa5
+08-18 20:23:29.809   950  1010 E BufferQueueDebug: [Surface(name=51e6de9 Toast)/@0x903f99c - animation-leash of window_animation#40832](this:0xb4000074aa62eba0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Surface(name=51e6de9 Toast)/@0x903f99c - animation-leash of window_animation#40832'
+08-18 20:23:29.809   950  1010 I BufferQueueDebug: [Surface(name=51e6de9 Toast)/@0x903f99c - animation-leash of window_animation#40832](this:0xb4000074aa62eba0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(950:/system/bin/surfaceflinger)
+08-18 20:23:29.810   950  1010 I SurfaceFlinger: id=40832 createSurf, flag=24004, Surface(name=51e6de9 Toast)/@0x903f99c - animation-leash of window_animation#40832
+08-18 20:23:29.811  1519  1548 D WindowManager: makeSurface duration=2 leash=Surface(name=Surface(name=51e6de9 Toast)/@0x903f99c - animation-leash of window_animation)/@0x75d4f7a
+08-18 20:23:29.812  1519  1548 V WindowManager: performShowLocked: mDrawState=HAS_DRAWN in Window{51e6de9 u0 Toast}
+08-18 20:23:29.824   950   950 I Layer   : Layer [Toast$_2053#40831] hidden!! flag(0)
+08-18 20:23:29.863   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074aa938000 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2340.0 |    0    0 1080 2340 | com.sdrradio.app/com.sdrradio.app.MainActivity$_17587#40772
+08-18 20:23:29.863   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074afd51fc0 | 0100 | RGBA_8888    |    0.0    0.0  822.0  116.0 |  129 2017  951 2133 | Toast$_2053#40827
+08-18 20:23:29.863   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074ab1aae00 | 0100 | RGBA_8888    |    0.0    0.0  822.0  116.0 |  129 2017  951 2133 | Toast$_2053#40831
+08-18 20:23:30.259  1519  1548 I WindowManager: Reparenting to original parent: Surface(name=WindowToken{6c2fdaa type=2005 android.os.Binder@21ac895})/@0x241e128, destroy=true, surface=Surface(name=444dd0e Toast)/@0xd334b
+08-18 20:23:30.274  1519  1548 I WindowManager: Destroying surface Surface(name=Toast$_2053)/@0xc1ae96 called by com.android.server.wm.WindowStateAnimator.destroySurface:799 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:472 com.android.server.wm.WindowState.removeImmediately:2937 com.android.server.wm.WindowState.handleCompleteDeferredRemoval:5780 com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval:1476 com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval:1476 com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval:1476 com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval:1476 
+08-18 20:23:30.280   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074aa938000 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2340.0 |    0    0 1080 2340 | com.sdrradio.app/com.sdrradio.app.MainActivity$_17587#40772
+08-18 20:23:30.280   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074ab1aae00 | 0100 | RGBA_8888    |    0.0    0.0  822.0  116.0 |  129 2017  951 2133 | Toast$_2053#40831
+08-18 20:23:30.291   950   950 I Layer   : id=40826 removeFromCurrentState 444dd0e Toast#40826 (231)
+08-18 20:23:30.291   950   950 I Layer   : id=40827 removeFromCurrentState Toast$_2053#40827 (231)
+08-18 20:23:30.292   950   950 I Layer   : id=40829 removeFromCurrentState Surface(name=444dd0e Toast)/@0xd334b - animation-leash of window_animation#40829 (231)
+08-18 20:23:30.292   950   950 I Layer   : Layer [Toast$_2053#40827] hidden!! flag(1)
+08-18 20:23:30.292   950   950 I Layer   : id=40827 removeFromCurrentState Toast$_2053#40827 (231)
+08-18 20:23:30.295   950   950 I SurfaceFlinger: id=40827 Removed Toast$_2053#40827 (231)
+08-18 20:23:30.295   950   950 I SurfaceFlinger: id=40829 Removed Surface(name=444dd0e Toast)/@0xd334b - animation-leash of window_animation#40829 (231)
+08-18 20:23:30.295   950   950 I SurfaceFlinger: id=40826 Removed 444dd0e Toast#40826 (231)
+08-18 20:23:30.307   950   950 I BufferQueueDebug: [Toast$_2053#40827](this:0xb4000074aa408ba0,id:-1,api:0,p:-1,c:950) onDestructor()
+08-18 20:23:30.307   950   950 I Layer   : id=40827 Destroyed Toast$_2053#40827
+08-18 20:23:30.308   950   950 I BufferQueueDebug: [444dd0e Toast#40826](this:0xb4000074aa659ba0,id:-1,api:0,p:-1,c:950) onDestructor()
+08-18 20:23:30.308   950   950 I Layer   : id=40826 Destroyed 444dd0e Toast#40826
+08-18 20:23:30.308   950   950 I BufferQueueDebug: [Surface(name=444dd0e Toast)/@0xd334b - animation-leash of window_animation#40829](this:0xb4000074b00daba0,id:-1,api:0,p:-1,c:950) onDestructor()
+08-18 20:23:30.308   950   950 I Layer   : id=40829 Destroyed Surface(name=444dd0e Toast)/@0xd334b - animation-leash of window_animation#40829
+08-18 20:23:30.325  1519  1548 I WindowManager: Reparenting to original parent: Surface(name=WindowToken{6149ce4 type=2005 android.os.Binder@762d877})/@0x766ffa5, destroy=true, surface=Surface(name=51e6de9 Toast)/@0x903f99c
+08-18 20:23:30.341   950   950 I Layer   : id=40832 removeFromCurrentState Surface(name=51e6de9 Toast)/@0x903f99c - animation-leash of window_animation#40832 (228)
+08-18 20:23:30.344   950   950 I SurfaceFlinger: id=40832 Removed Surface(name=51e6de9 Toast)/@0x903f99c - animation-leash of window_animation#40832 (228)
+08-18 20:23:30.357   950   950 I BufferQueueDebug: [Surface(name=51e6de9 Toast)/@0x903f99c - animation-leash of window_animation#40832](this:0xb4000074aa62eba0,id:-1,api:0,p:-1,c:950) onDestructor()
+08-18 20:23:30.357   950   950 I Layer   : id=40832 Destroyed Surface(name=51e6de9 Toast)/@0x903f99c - animation-leash of window_animation#40832
+08-18 20:23:31.001 12772 17162 W FusedLocation: mock location injection by 10406/com.just4funtools.fakegpslocationprofessional failed (not in mock mode) [CONTEXT service_id=6 ]
+08-18 20:23:31.476  1519  1747 E CAE     : onGetSensorHubData(SensorHubParserProvider.java:115) - ERROR : Data field parsing error
+08-18 20:23:32.309  2053  2053 I WindowManager: WindowManagerGlobal#removeView, ty=2005, view=android.widget.LinearLayout{a60f236 V.E...... ........ 0,0-822,116}, caller=android.view.WindowManagerGlobal.removeView:628 android.view.WindowManagerImpl.removeViewImmediate:208 android.widget.ToastPresenter.hide:358 
+08-18 20:23:32.310  1519  2934 D CoreBackPreview: Window{51e6de9 u0 Toast}: Setting back callback null
+08-18 20:23:32.312   885  1118 I hwcomposer: [DRMDEV] (0) failed to waitNextVsync: -1  
+08-18 20:23:32.315  2053  2053 I ViewRootImpl@d7c537[Toast]: dispatchDetachedFromWindow
+08-18 20:23:32.315  2053  2053 D BLASTBufferQueue: [ViewRootImpl@d7c537[Toast]#2239](f:0,a:1) destructor()
+08-18 20:23:32.316  2053  2053 D BufferQueueConsumer: [ViewRootImpl@d7c537[Toast]#2239(BLAST Consumer)2239](id:805000008c4,api:0,p:-1,c:2053) disconnect
+08-18 20:23:32.318  1519  2934 W InputManager-JNI: Input channel object '51e6de9 Toast (client)' was disposed without first being removed with the input manager!
+08-18 20:23:32.319  1519  2934 V WindowManager: Remove Window{51e6de9 u0 Toast}: mSurfaceController=Surface(name=Toast$_2053)/@0x6fad707 mAnimatingExit=false mRemoveOnExit=false mHasSurface=true surfaceShowing=true animating=false app-animation=false mDisplayFrozen=false callers=com.android.server.wm.WindowManagerService.removeWindow:2148 com.android.server.wm.Session.remove:257 android.view.IWindowSession$Stub.onTransact:747 com.android.server.wm.Session.onTransact:204 android.os.Binder.execTransactInternal:1380 android.os.Binder.execTransact:1311 
+08-18 20:23:32.319  1519  2934 I WindowManager: Reparenting to leash, surface=Surface(name=51e6de9 Toast)/@0x903f99c, leashParent=Surface(name=WindowToken{6149ce4 type=2005 android.os.Binder@762d877})/@0x766ffa5
+08-18 20:23:32.320   885  1118 I hwcomposer: [DRMDEV] (0) failed to waitNextVsync: -1  
+08-18 20:23:32.320   950  1332 E BufferQueueDebug: [Surface(name=51e6de9 Toast)/@0x903f99c - animation-leash of window_animation#40833](this:0xb4000074aa453ba0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Surface(name=51e6de9 Toast)/@0x903f99c - animation-leash of window_animation#40833'
+08-18 20:23:32.321   950  1332 I BufferQueueDebug: [Surface(name=51e6de9 Toast)/@0x903f99c - animation-leash of window_animation#40833](this:0xb4000074aa453ba0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(950:/system/bin/surfaceflinger)
+08-18 20:23:32.322   950  1332 I SurfaceFlinger: id=40833 createSurf, flag=24000, Surface(name=51e6de9 Toast)/@0x903f99c - animation-leash of window_animation#40833
+08-18 20:23:32.323  1519  2934 D WindowManager: makeSurface duration=4 leash=Surface(name=Surface(name=51e6de9 Toast)/@0x903f99c - animation-leash of window_animation)/@0xcbbe034
+08-18 20:23:32.324  1519  2934 V WindowManager: removeIfPossible 2, Window{51e6de9 u0 Toast}: mAnimatingExit=true caller=com.android.server.wm.WindowManagerService.removeWindow:2148 com.android.server.wm.Session.remove:257 android.view.IWindowSession$Stub.onTransact:747 com.android.server.wm.Session.onTransact:204 android.os.Binder.execTransactInternal:1380 
+08-18 20:23:32.331  1519  2934 W NotificationService: Toast already killed. pkg=com.sdrradio.app token=android.os.BinderProxy@6867e5d
+08-18 20:23:32.351  2053  2053 V ToastPresenter: yOffset = 168
+08-18 20:23:32.351  2053  2053 V ToastPresenter: Text: Oenh in android.widget.ToastPresenter@baf9835
+08-18 20:23:32.351  2053  2053 I WindowManager: WindowManagerGlobal#addView, ty=2005, view=android.widget.LinearLayout{82224ca V.E...... ......I. 0,0-0,0}, caller=android.view.WindowManagerImpl.addView:150 android.widget.ToastPresenter.addToastView:414 android.widget.ToastPresenter.show:335 
+08-18 20:23:32.361   950  1008 E BufferQueueDebug: [6bddb1e Toast#40834](this:0xb4000074b009dba0,id:-1,api:0,p:-1,c:-1) id info cannot be read from '6bddb1e Toast#40834'
+08-18 20:23:32.361   950  1008 I BufferQueueDebug: [6bddb1e Toast#40834](this:0xb4000074b009dba0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(950:/system/bin/surfaceflinger)
+08-18 20:23:32.361   950  1008 I SurfaceFlinger: id=40834 createSurf, flag=84004, 6bddb1e Toast#40834
+08-18 20:23:32.365  2053  2053 I InsetsController: onStateChanged: host=Toast, from=android.view.ViewRootImpl.setView:1753, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 80 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(472, 0 - 608, 80), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 H -24.177777778 V 28.4444444444 H 24.177777778 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=0, center=Point(0, 0)}, RoundedCorner{position=TopRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomLeft, radius=0, center=Point(0, 0)}]}  mRoundedCornerFrame=Rect(0, 0 - 0, 0), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(964, 0 - 1080, 80) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {e3260001 mType=navigationBars mFrame=[0,2301][1080,2340] mVisible=true mFlags=[SUPPRESS_SCRIM]}, InsetsSource: {e3260004 mType=systemGestures mFrame=[0,0][78,2340] mVisible=true mFlags=[]}, InsetsSource: {e3260005 mType=mandatorySystemGestures mFrame=[0,2256][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {e3260006 mType=tappableElement mFrame=[0,0][0,0] mVisible=true mFlags=[]}, InsetsSource: {e3260024 mType=systemGestures mFrame=[1002,0][1080,2340] mVisible=true mFlags=[]}, InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags=[]}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,80] mVisible=true mFlags=[]}, InsetsSource: {737f0000 mType=statusBars mFrame=[0,0][1080,80] mVisible=true mFlags=[]}, InsetsSource: {737f0005 mType=mandatorySystemGestures mFrame=[0,0][1080,112] mVisible=true mFlags=[]}, InsetsSource: {737f0006 mType=tappableElement mFrame=[0,0][1080,80] mVisible=true mFlags=[]} }
+08-18 20:23:32.366  2053  2053 I ViewRootImpl@bfb663b[Toast]: synced displayState. AttachInfo displayState=2
+08-18 20:23:32.366  2053  2053 I ViewRootImpl@bfb663b[Toast]: setView = android.widget.LinearLayout@82224ca TM=true
+08-18 20:23:32.368  1519  2934 D CoreBackPreview: Window{6bddb1e u0 Toast}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@28701cc, mPriority=0, mIsAnimationCallback=false}
+08-18 20:23:32.369  1519  2934 V WindowManager: Relayout Window{6bddb1e u0 Toast}: viewVisibility=0 req=822x116 ty=2005 d0
+08-18 20:23:32.370   950  1008 E BufferQueueDebug: [Toast$_2053#40835](this:0xb4000074b00a0ba0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Toast$_2053#40835'
+08-18 20:23:32.371   950  1008 I BufferQueueDebug: [Toast$_2053#40835](this:0xb4000074b00a0ba0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(950:/system/bin/surfaceflinger)
+08-18 20:23:32.371   950  1008 I SurfaceFlinger: id=40835 createSurf, flag=44004, Toast$_2053#40835
+08-18 20:23:32.373  1519  2934 D WindowManager: makeSurface duration=3 name=Toast$_2053
+08-18 20:23:32.381  2053  2053 D BufferQueueConsumer: [](id:805000008c5,api:0,p:-1,c:2053) connect: controlledByApp=false
+08-18 20:23:32.382  2053  2053 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= ViewRootImpl@bfb663b[Toast] mNativeObject= 0xb400006dc4bc2f80 sc.mNativeObject= 0xb400006dea1797c0 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3028 android.view.ViewRootImpl.relayoutWindow:10131 android.view.ViewRootImpl.performTraversals:4110 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 android.view.Choreographer$CallbackRecord.run:1689 android.view.Choreographer$CallbackRecord.run:1698 android.view.Choreographer.doCallbacks:1153 android.view.Choreographer.doFrame:1079 android.view.Choreographer$FrameDisplayEventReceiver.run:1646 
+08-18 20:23:32.382  2053  2053 I BLASTBufferQueue_Java: update, w= 822 h= 116 mName = ViewRootImpl@bfb663b[Toast] mNativeObject= 0xb400006dc4bc2f80 sc.mNativeObject= 0xb400006dea1797c0 format= -3 caller= android.graphics.BLASTBufferQueue.<init>:89 android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3028 android.view.ViewRootImpl.relayoutWindow:10131 android.view.ViewRootImpl.performTraversals:4110 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 
+08-18 20:23:32.383  2053  2053 I ViewRootImpl@bfb663b[Toast]: Relayout returned: old=(0,80,1080,2301) new=(129,2017,951,2133) relayoutAsync=false req=(822,116)0 dur=13 res=0x3 s={true 0xb400006dc4e88800} ch=true seqId=0
+08-18 20:23:32.384  2053  2053 I ViewRootImpl@bfb663b[Toast]: performConfigurationChange setNightDimText nightDimLevel=0
+08-18 20:23:32.385  2053  2053 D ViewRootImpl@bfb663b[Toast]: mThreadedRenderer.initialize() mSurface={isValid=true 0xb400006dc4e88800} hwInitialized=true
+08-18 20:23:32.386  2053  2053 D ViewRootImpl@bfb663b[Toast]: reportNextDraw android.view.ViewRootImpl.performTraversals:4718 android.view.ViewRootImpl.doTraversal:3288 android.view.ViewRootImpl$TraversalRunnable.run:11344 android.view.Choreographer$CallbackRecord.run:1689 android.view.Choreographer$CallbackRecord.run:1698 
+08-18 20:23:32.386  2053  2053 I ViewRootImpl@bfb663b[Toast]: Setup new sync=wmsSync-ViewRootImpl@bfb663b[Toast]#85
+08-18 20:23:32.386  2053  2053 I ViewRootImpl@bfb663b[Toast]: Creating new active sync group ViewRootImpl@bfb663b[Toast]#86
+08-18 20:23:32.387  2053  2053 I ViewRootImpl@bfb663b[Toast]: registerCallbacksForSync syncBuffer=false
+08-18 20:23:32.390  2053  2807 I ViewRootImpl@bfb663b[Toast]: Received frameDrawingCallback syncResult=0 frameNum=1.
+08-18 20:23:32.391  2053  2807 I ViewRootImpl@bfb663b[Toast]: mWNT: t=0xb400006dc4d69780 mBlastBufferQueue=0xb400006dc4bc2f80 fn= 1 mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$8.onFrameDraw:13841 android.view.ThreadedRenderer$1.onFrameDraw:792 <bottom of call stack> 
+08-18 20:23:32.391  2053  2807 I ViewRootImpl@bfb663b[Toast]: Setting up sync and frameCommitCallback
+08-18 20:23:32.394  2053  2217 D BLASTBufferQueue: [ViewRootImpl@bfb663b[Toast]#2240](f:0,a:0) onFrameAvailable the first frame is available
+08-18 20:23:32.395  2053  2217 D BLASTBufferQueue: [ViewRootImpl@bfb663b[Toast]#2240](f:0,a:1) acquireNextBufferLocked size=822x116 mFrameNumber=1 applyTransaction=true mTimestamp=316893380788964(auto) mPendingTransactions.size=0 graphicBufferId=8817567885358 transform=0
+08-18 20:23:32.395  2053  2217 I ViewRootImpl@bfb663b[Toast]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+08-18 20:23:32.398  2053  2053 I ViewRootImpl@bfb663b[Toast]: reportDrawFinished seqId=0
+08-18 20:23:32.399  1519  4466 D WindowManager: finishDrawingWindow: Window{6bddb1e u0 Toast} mDrawState=DRAW_PENDING seqId=0
+08-18 20:23:32.402  1519  1548 I WindowManager: Reparenting to leash, surface=Surface(name=6bddb1e Toast)/@0x5d01c15, leashParent=Surface(name=WindowToken{8924bbd type=2005 android.os.Binder@b4b0714})/@0xf688b2a
+08-18 20:23:32.403   950  1008 E BufferQueueDebug: [Surface(name=6bddb1e Toast)/@0x5d01c15 - animation-leash of window_animation#40836](this:0xb4000074b0117ba0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Surface(name=6bddb1e Toast)/@0x5d01c15 - animation-leash of window_animation#40836'
+08-18 20:23:32.404   950  1008 I BufferQueueDebug: [Surface(name=6bddb1e Toast)/@0x5d01c15 - animation-leash of window_animation#40836](this:0xb4000074b0117ba0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(950:/system/bin/surfaceflinger)
+08-18 20:23:32.405   950  1008 I SurfaceFlinger: id=40836 createSurf, flag=24004, Surface(name=6bddb1e Toast)/@0x5d01c15 - animation-leash of window_animation#40836
+08-18 20:23:32.407  1519  1548 D WindowManager: makeSurface duration=4 leash=Surface(name=Surface(name=6bddb1e Toast)/@0x5d01c15 - animation-leash of window_animation)/@0x6663d1b
+08-18 20:23:32.408  1519  1548 V WindowManager: performShowLocked: mDrawState=HAS_DRAWN in Window{6bddb1e u0 Toast}
+08-18 20:23:32.422   950   950 I Layer   : Layer [Toast$_2053#40835] hidden!! flag(0)
+08-18 20:23:32.465   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074aa938000 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2340.0 |    0    0 1080 2340 | com.sdrradio.app/com.sdrradio.app.MainActivity$_17587#40772
+08-18 20:23:32.465   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074ab1aae00 | 0100 | RGBA_8888    |    0.0    0.0  822.0  116.0 |  129 2017  951 2133 | Toast$_2053#40831
+08-18 20:23:32.465   950   950 D SurfaceFlinger:      DEVICE | 0xb4000074afdda380 | 0100 | RGBA_8888    |    0.0    0.0  822.0  116.0 |  129 2017  951 2133 | Toast$_2053#40835

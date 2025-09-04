@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RTL-SDR device filters -->
+    <usb-device vendor-id="3034" product-id="10296" /> <!-- Realtek RTL2832U -->
+    <usb-device vendor-id="3034" product-id="10297" /> <!-- Realtek RTL2832U -->
+    <usb-device vendor-id="3034" product-id="10298" /> <!-- Realtek RTL2832U -->
+    <usb-device vendor-id="3034" product-id="10294" /> <!-- Realtek RTL2832U -->
+    <usb-device vendor-id="3034" product-id="10295" /> <!-- Realtek RTL2832U -->
+    
+    <!-- RTL2832U R820T2 TCXO+BIAS T+NF variants -->
+    <usb-device vendor-id="3034" product-id="10296" /> <!-- RTL2832U R820T2 TCXO -->
+    <usb-device vendor-id="3034" product-id="10297" /> <!-- RTL2832U R820T2 with BIAS T -->
+    <usb-device vendor-id="3034" product-id="10313" /> <!-- RTL2832U R820T2 TCXO variant -->
+    
+    <!-- Generic RTL-SDR devices -->
+    <usb-device vendor-id="1155" product-id="10296" /> <!-- Generic RTL-SDR -->
+    <usb-device vendor-id="1155" product-id="10297" /> <!-- Generic RTL-SDR -->
+    
+    <!-- Other common RTL-SDR chips -->
+    <usb-device vendor-id="1155" product-id="22336" /> <!-- STMicroelectronics -->
+    <usb-device vendor-id="5460" product-id="20512" /> <!-- PixelView -->
+    <usb-device vendor-id="5620" product-id="305" />   <!-- HanfTek -->
+    <usb-device vendor-id="7449" product-id="4353" />  <!-- Dexatek -->
+    <usb-device vendor-id="3277" product-id="169" />   <!-- Terratec -->
+</resources>

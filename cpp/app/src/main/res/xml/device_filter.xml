@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RTL-SDR v3 -->
+    <usb-device vendor-id="0x0bda" product-id="0x2838" />
+    
+    <!-- RTL-SDR v4 -->
+    <usb-device vendor-id="0x0bda" product-id="0x2832" />
+    
+    <!-- RTL-SDR Blog v3 -->
+    <usb-device vendor-id="0x0bda" product-id="0x2838" />
+    
+    <!-- RTL-SDR Blog v4 -->
+    <usb-device vendor-id="0x0bda" product-id="0x2832" />
+    
+    <!-- Outros dispositivos RTL-SDR comuns -->
+    <usb-device vendor-id="0x0bda" />
+</resources> 

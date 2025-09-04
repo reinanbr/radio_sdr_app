@@ -1,0 +1,2 @@
+rootProject.name = "SDR Radio KT"
+include ':app' 
